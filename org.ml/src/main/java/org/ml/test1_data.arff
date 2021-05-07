@@ -1,0 +1,1249 @@
+@relation test1_data-weka.filters.unsupervised.attribute.Remove-R1-2-weka.filters.unsupervised.attribute.NumericToNominal-R11
+
+@attribute Location {Delhi,Coimbatore,Mumbai,Hyderabad,Pune,Jaipur,Chennai,Kochi,Bangalore,Kolkata,Ahmedabad}
+@attribute Year numeric
+@attribute Kilometers_Driven numeric
+@attribute Fuel_Type {CNG,Petrol,Diesel,LPG}
+@attribute Transmission {Manual,Automatic}
+@attribute Owner_Type {First,Second,Third,'Fourth & Above'}
+@attribute Mileage {'32.26 km/kg','24.7 kmpl','13.68 kmpl','23.59 kmpl','18.5 kmpl','16.0 kmpl','12.55 kmpl','21.1 kmpl','17.0 kmpl','15.1 kmpl','12.8 kmpl','18.9 kmpl','13.4 kmpl','17.8 kmpl','13.24 kmpl','17.05 kmpl','19.59 kmpl','13.8 kmpl','22.0 kmpl','17.5 kmpl','23.2 kmpl','18.06 kmpl','15.5 kmpl','19.7 kmpl','27.3 kmpl','21.66 kmpl','15.11 kmpl','19.81 kmpl','10.5 kmpl','23.4 kmpl','19.1 kmpl','14.84 kmpl','15.29 kmpl','22.48 kmpl','27.39 kmpl','17.11 kmpl','16.55 kmpl','15.41 kmpl','24.52 kmpl','20.73 kmpl','20.0 kmpl','12.99 kmpl','18.88 kmpl','22.7 kmpl','11.4 kmpl','14.16 kmpl','17.01 kmpl','24.3 kmpl','19.09 kmpl','17.7 kmpl','14.53 kmpl','18.6 kmpl','20.14 kmpl','23.0 kmpl','18.2 kmpl','15.4 kmpl','18.4 kmpl','16.02 kmpl','0.0 kmpl','18.16 kmpl','23.84 kmpl','23.08 kmpl','18.12 kmpl','19.16 kmpl','21.43 kmpl','22.32 kmpl','21.21 kmpl','11.07 kmpl','13.07 kmpl','15.3 kmpl','11.9 kmpl','17.92 kmpl','21.4 kmpl','10.2 kmpl','19.34 kmpl','19.0 kmpl','26.0 kmpl','25.8 kmpl','22.07 kmpl','22.3 kmpl','17.32 kmpl','19.4 kmpl','19.71 kmpl','16.47 kmpl','19.2 kmpl','16.73 kmpl','19.3 kmpl','21.9 kmpl','26.59 kmpl','16.09 kmpl','25.44 kmpl','18.51 kmpl','12.0 kmpl','19.83 kmpl','20.89 kmpl','13.9 kmpl','22.74 kmpl','13.6 kmpl','18.15 kmpl','20.54 kmpl','14.4 kmpl','13.5 kmpl','18.0 kmpl','22.5 kmpl','20.36 kmpl','13.1 kmpl','16.36 kmpl','24.0 kmpl','15.0 kmpl','23.1 kmpl','13.0 kmpl','14.8 kmpl','17.3 kmpl','11.3 kmpl','10.13 kmpl','20.64 kmpl','16.78 kmpl','14.3 kmpl','21.64 kmpl','15.26 kmpl','15.04 kmpl','24.2 kmpl','16.9 kmpl','11.8 kmpl','18.1 kmpl','23.9 kmpl','16.77 kmpl','14.1 kmpl','19.01 kmpl','28.4 kmpl','14.74 kmpl','21.76 kmpl','19.27 kmpl','16.8 kmpl','17.68 kmpl','14.6 kmpl','17.19 kmpl','24.5 kmpl','21.02 kmpl','12.2 kmpl','15.17 kmpl','16.2 kmpl','16.3 kmpl','17.71 kmpl','15.6 kmpl','19.67 kmpl','17.3 km/kg','17.1 kmpl','13.49 kmpl','20.92 kmpl','20.46 kmpl','14.2 kmpl','25.2 kmpl','14.21 kmpl','13.2 kmpl','15.2 kmpl','11.68 kmpl','21.19 kmpl','13.7 kmpl','21.14 kmpl','12.3 kmpl','16.1 kmpl','22.9 kmpl','11.5 kmpl','21.03 kmpl','20.77 kmpl','12.07 kmpl','24.07 kmpl','25.0 kmpl','11.1 kmpl','22.54 kmpl','20.8 kmpl','14.28 kmpl','11.7 kmpl','15.96 kmpl','14.0 kmpl','25.32 kmpl','14.24 kmpl','17.88 kmpl','19.69 kmpl','20.3 kmpl','12.39 kmpl','20.4 kmpl','20.51 kmpl','18.25 kmpl','20.68 kmpl','9.1 kmpl','11.88 km/kg','11.2 kmpl','11.0 kmpl','16.38 kmpl','15.73 kmpl','14.81 kmpl','19.64 kmpl','12.7 kmpl','17.6 kmpl','19.15 kmpl','17.9 kmpl','21.5 kmpl','22.77 kmpl','16.5 kmpl','22.69 kmpl','20.5 kmpl','18.33 kmpl','12.08 kmpl','16.95 kmpl','20.7 kmpl','9.74 kmpl','16.46 kmpl','16.98 kmpl','27.62 kmpl','25.4 kmpl','15.63 kmpl','15.56 kmpl','16.52 kmpl','25.17 kmpl','19.33 kmpl','18.3 kmpl','15.8 kmpl','17.4 kmpl','12.6 kmpl','23.5 kmpl','18.49 kmpl','11.57 kmpl','22.71 kmpl','18.19 kmpl','14.62 kmpl','12.4 kmpl','14.02 kmpl','22.1 kmpl','17.97 kmpl','10.1 kmpl','11.78 kmpl','21.72 kmpl','11.36 kmpl','18.7 kmpl','18.48 kmpl','21.38 kmpl','20.37 kmpl','20.38 kmpl','14.69 kmpl','14.7 kmpl','28.09 kmpl','14.67 kmpl','19.87 kmpl','25.5 kmpl','12.83 kmpl','15.15 kmpl','23.65 kmpl','16.6 kmpl','16.51 kmpl','17.21 kmpl','21.0 kmpl','18.53 kmpl','10.8 kmpl','14.49 kmpl','14.5 kmpl','25.6 kmpl','10.0 kmpl','17.54 kmpl','19.68 kmpl','17.15 kmpl','23.3 kmpl','20.85 kmpl','20.34 kmpl','19.5 kmpl','12.62 kmpl','12.05 kmpl','26.21 kmpl','24.4 kmpl','15.85 kmpl','19.6 kmpl','14.95 kmpl','8.7 kmpl','13.2 km/kg','15.1 km/kg','14.94 kmpl','12.37 kmpl','30.46 km/kg','19.98 kmpl','20.45 kmpl','21.79 kmpl','24.8 kmpl','7.94 kmpl','23.03 kmpl','16.93 kmpl','11.74 kmpl','13.22 kmpl','17.57 kmpl','11.18 kmpl','22.95 kmpl','17.2 kmpl','12.98 kmpl','12.19 kmpl','15.9 kmpl','14.9 kmpl','8.45 kmpl','23.8 kmpl','9.0 kmpl','15.97 kmpl','27.28 kmpl'}
+@attribute Engine {'998 CC','796 CC','2393 CC','1364 CC','1197 CC','2179 CC','2982 CC','814 CC','1497 CC','1968 CC','1794 CC','1248 CC','1598 CC','1995 CC','1399 CC','1298 CC','1198 CC',0,'1799 CC','1299 CC','1498 CC','1086 CC','2835 CC','1591 CC','2494 CC','1373 CC','2143 CC','2953 CC','1396 CC','1798 CC','1199 CC','1196 CC','1461 CC','2487 CC','1582 CC','2496 CC','1368 CC','1596 CC','1595 CC','2354 CC','624 CC','2993 CC','936 CC','2987 CC','1999 CC','999 CC','2000 CC','1493 CC','1120 CC','3498 CC','1496 CC','1405 CC','1896 CC','2967 CC','2477 CC','1948 CC','1172 CC','1797 CC','2498 CC','1061 CC','1150 CC','1495 CC','2499 CC','1796 CC','2362 CC','2523 CC','5998 CC','2755 CC','2400 CC','2349 CC','995 CC','1998 CC','2999 CC','1795 CC','1984 CC','793 CC','1341 CC','1186 CC','1499 CC','1991 CC','799 CC','1586 CC','2497 CC','1956 CC','1950 CC','1462 CC','1388 CC','1997 CC','3696 CC','2446 CC','2198 CC','2489 CC','2147 CC','2359 CC','2996 CC','2495 CC','2148 CC','4395 CC','1389 CC','1193 CC','2696 CC','2979 CC','1590 CC','1599 CC','1047 CC'}
+@attribute Power {'58.2 bhp','47.3 bhp','147.8 bhp','null bhp','82.85 bhp','140 bhp','168.7 bhp','55.2 bhp','118 bhp','167.6 bhp','82 bhp','125 bhp','75 bhp','102.5 bhp','184 bhp','68 bhp','81.80 bhp','85.8 bhp','73.94 bhp',0,'132 bhp','70 bhp','46.3 bhp','98.6 bhp','103.52 bhp','80 bhp','67.06 bhp','103.6 bhp','68.05 bhp','107.2 bhp','74 bhp','121.3 bhp','102 bhp','190 bhp','174.33 bhp','88.5 bhp','91.1 bhp','136 bhp','100.6 bhp','89.84 bhp','153.86 bhp','174.3 bhp','67.04 bhp','69 bhp','78 bhp','138.1 bhp','81.83 bhp','88.8 bhp','67 bhp','82.5 bhp','120 bhp','108.62 bhp','67.1 bhp','86.8 bhp','93.7 bhp','62 bhp','84 bhp','79.4 bhp','63.1 bhp','100 bhp','81.86 bhp','175.67 bhp','87.2 bhp','126.32 bhp','103.2 bhp','179.5 bhp','88.76 bhp','99.6 bhp','120.7 bhp','62.1 bhp','83.1 bhp','180 bhp','75.94 bhp','126.24 bhp','35 bhp','73.9 bhp','138.13 bhp','201.15 bhp','218 bhp','57.6 bhp','147.51 bhp','224 bhp','66.1 bhp','130.3 bhp','177 bhp','90 bhp','123.24 bhp','130 bhp','148 bhp','78.9 bhp','108.495 bhp','187.7 bhp','204 bhp','165 bhp','98.96 bhp','117.3 bhp','254.8 bhp','364.9 bhp','108.5 bhp','201.1 bhp','88.73 bhp','71 bhp','160 bhp','105 bhp','84.8 bhp','203.2 bhp','246.7 bhp','110 bhp','37.48 bhp','261.49 bhp','108.45 bhp','73.75 bhp','270.9 bhp','56.3 bhp','167.62 bhp','34.2 bhp','88.7 bhp','175.56 bhp','126.2 bhp','181 bhp','147.5 bhp','78.8 bhp','70.02 bhp','57.5 bhp','121.4 bhp','138.03 bhp','83.8 bhp','246.74 bhp','74.9 bhp','203 bhp','94 bhp','140.8 bhp','112 bhp','170 bhp','157.75 bhp','185 bhp','37 bhp','171 bhp','164.7 bhp','116.3 bhp','65 bhp','241.4 bhp','76.8 bhp','142 bhp','64.1 bhp','73 bhp','177.6 bhp','86.7 bhp','77 bhp','616 bhp','174.5 bhp','48.21 bhp','144 bhp','69.01 bhp','91.7 bhp','187.74 bhp','178 bhp','200 bhp','241 bhp','170.30 bhp','182.46 bhp','106 bhp','163.7 bhp','245.41 bhp','98.59 bhp','63 bhp','167.7 bhp','161 bhp','97.7 bhp','127 bhp','168.5 bhp','76 bhp','113.98 bhp','120.69 bhp','208 bhp','258 bhp','47 bhp','61 bhp','73.97 bhp','110.4 bhp','252 bhp','123.7 bhp','53.3 bhp','147.9 bhp','85.80 bhp','103.5 bhp','103.3 bhp','73.74 bhp','126.3 bhp','82.9 bhp','149.92 bhp','118.3 bhp','76.9 bhp','152 bhp','116.4 bhp','123.37 bhp','169 bhp','108.4 bhp','210 bhp','171.5 bhp','83 bhp','215 bhp','143 bhp','73.8 bhp','63.12 bhp','177.46 bhp','191.34 bhp','282 bhp','108.49 bhp','240 bhp','103 bhp','91.72 bhp','66 bhp','141 bhp','88.2 bhp','130.2 bhp','147.4 bhp','328.5 bhp','313 bhp','115 bhp','150 bhp','55 bhp','83.14 bhp','158 bhp','98.63 bhp','224.34 bhp','134 bhp','107.3 bhp','53.64 bhp','198.25 bhp','362.07 bhp','254.79 bhp','104.68 bhp','157.7 bhp','450 bhp','88 bhp','186 bhp','98.82 bhp','360 bhp','178.4 bhp','236 bhp','85 bhp','192 bhp','98.79 bhp','112.2 bhp','321 bhp','241.6 bhp','157.8 bhp','121.36 bhp','92.7 bhp'}
+@attribute Seats numeric
+@attribute New_Price string
+
+@data
+Delhi,2014,40929,CNG,Manual,First,'32.26 km/kg','998 CC','58.2 bhp',4,0
+Coimbatore,2013,54493,Petrol,Manual,Second,'24.7 kmpl','796 CC','47.3 bhp',5,0
+Mumbai,2017,34000,Diesel,Manual,First,'13.68 kmpl','2393 CC','147.8 bhp',7,'25.27 Lakh'
+Hyderabad,2012,139000,Diesel,Manual,First,'23.59 kmpl','1364 CC','null bhp',5,0
+Mumbai,2014,29000,Petrol,Manual,First,'18.5 kmpl','1197 CC','82.85 bhp',5,0
+Coimbatore,2016,85609,Diesel,Manual,Second,'16.0 kmpl','2179 CC','140 bhp',7,0
+Pune,2015,59000,Diesel,Automatic,First,'12.55 kmpl','2982 CC','168.7 bhp',7,0
+Jaipur,2013,65000,Petrol,Manual,First,'21.1 kmpl','814 CC','55.2 bhp',5,0
+Mumbai,2011,66000,Petrol,Manual,Second,'17.0 kmpl','1497 CC','118 bhp',5,0
+Coimbatore,2015,54684,Diesel,Manual,First,'15.1 kmpl','2179 CC','140 bhp',7,0
+Mumbai,2012,78000,Diesel,Automatic,Second,'12.8 kmpl','1968 CC','167.6 bhp',5,0
+Jaipur,2016,21000,Petrol,Manual,First,'18.9 kmpl','1197 CC','82 bhp',5,0
+Chennai,2007,90000,Petrol,Manual,Third,'13.4 kmpl','1794 CC','125 bhp',5,0
+Coimbatore,2008,87628,Diesel,Manual,First,'17.8 kmpl','1248 CC','75 bhp',5,0
+Mumbai,2014,45000,Petrol,Manual,First,'13.24 kmpl','1598 CC','102.5 bhp',5,0
+Coimbatore,2013,30788,Diesel,Automatic,First,'17.05 kmpl','1995 CC','184 bhp',5,0
+Hyderabad,2015,39524,Diesel,Automatic,First,'19.59 kmpl','1995 CC','184 bhp',5,0
+Chennai,2009,140000,Diesel,Manual,First,'13.8 kmpl','1399 CC','68 bhp',5,0
+Kochi,2019,15409,Petrol,Automatic,First,'22.0 kmpl','1197 CC','81.80 bhp',5,0
+Jaipur,2015,36502,Petrol,Manual,First,'17.5 kmpl','1298 CC','85.8 bhp',5,0
+Pune,2016,200000,Diesel,Manual,First,'23.2 kmpl','1248 CC','73.94 bhp',5,0
+Delhi,2010,70000,Petrol,Manual,First,'18.06 kmpl','1198 CC','75 bhp',5,0
+Kochi,2017,36701,Petrol,Manual,First,'24.7 kmpl','796 CC','47.3 bhp',5,0
+Bangalore,2009,72000,Petrol,Manual,Second,'17.5 kmpl',0,0,0,0
+Bangalore,2011,40000,Petrol,Manual,Second,'15.5 kmpl','1799 CC','132 bhp',5,0
+Pune,2005,47000,Petrol,Manual,Second,'13.8 kmpl','1299 CC','70 bhp',5,0
+Pune,2006,93500,Petrol,Manual,Second,'19.7 kmpl','796 CC','46.3 bhp',5,0
+Pune,2015,52000,Diesel,Manual,First,'27.3 kmpl','1498 CC','98.6 bhp',5,0
+Delhi,2015,55429,Diesel,Automatic,Second,'21.66 kmpl','1498 CC','103.52 bhp',5,0
+Mumbai,2011,133000,Petrol,Manual,Second,'17.0 kmpl','1197 CC','80 bhp',5,0
+Chennai,2014,70000,Diesel,Manual,Second,'23.59 kmpl','1364 CC','67.06 bhp',5,'9.27 Lakh'
+Pune,2014,68000,Diesel,Manual,First,'15.11 kmpl','1598 CC','103.6 bhp',5,0
+Pune,2010,71000,Petrol,Manual,Second,'19.81 kmpl','1086 CC','68.05 bhp',5,0
+Chennai,2012,121000,Diesel,Manual,First,'10.5 kmpl','2835 CC','107.2 bhp',6,0
+Kolkata,2015,107000,Diesel,Manual,First,'23.4 kmpl','1248 CC','74 bhp',5,0
+Chennai,2015,51000,Petrol,Manual,First,'19.1 kmpl','1197 CC','85.8 bhp',5,0
+Mumbai,2017,13500,Petrol,Automatic,First,'14.84 kmpl','1598 CC','103.52 bhp',5,'14.95 Lakh'
+Bangalore,2016,13000,Petrol,Manual,First,'15.29 kmpl','1591 CC','121.3 bhp',5,0
+Pune,2010,81000,Diesel,Manual,First,'12.8 kmpl','2494 CC','102 bhp',8,0
+Mumbai,2012,66889,Diesel,Automatic,First,'22.48 kmpl','1995 CC','190 bhp',5,'70.43 Lakh'
+Ahmedabad,2018,32000,Diesel,Manual,First,'27.39 kmpl','1248 CC','74 bhp',5,0
+Pune,2013,87001,Diesel,Automatic,First,'17.11 kmpl','1968 CC','174.33 bhp',5,0
+Hyderabad,2013,55000,Diesel,Automatic,Second,'16.55 kmpl','1968 CC','140 bhp',5,0
+Jaipur,2018,4000,Petrol,Manual,First,'15.41 kmpl','1598 CC','103.52 bhp',5,'11.89 Lakh'
+Kochi,2017,27778,Diesel,Manual,First,'24.52 kmpl','1248 CC','88.5 bhp',7,0
+Mumbai,2017,5000,Petrol,Manual,First,'20.73 kmpl','1373 CC','91.1 bhp',5,0
+Pune,2014,72000,Petrol,Manual,First,'20.73 kmpl','1373 CC','91.1 bhp',5,0
+Chennai,2015,21000,Diesel,Automatic,First,'20.0 kmpl','2143 CC','136 bhp',5,0
+Kochi,2015,59299,Diesel,Manual,First,'12.99 kmpl','2494 CC','100.6 bhp',7,0
+Ahmedabad,2014,75000,Diesel,Automatic,First,'18.88 kmpl','1995 CC','184 bhp',5,0
+Kochi,2019,3413,Petrol,Manual,First,'24.7 kmpl','796 CC','47.3 bhp',5,0
+Mumbai,2014,62000,Diesel,Manual,First,'22.7 kmpl','1498 CC','89.84 bhp',5,0
+Mumbai,2010,105001,Diesel,Automatic,First,'11.4 kmpl','2953 CC','153.86 bhp',7,0
+Mumbai,2013,89000,Diesel,Automatic,First,'14.16 kmpl','1968 CC','174.3 bhp',5,0
+Mumbai,2014,21000,Petrol,Manual,First,'17.01 kmpl','1591 CC','121.3 bhp',5,0
+Kolkata,2014,50000,Diesel,Manual,First,'15.1 kmpl','2179 CC','140 bhp',7,0
+Hyderabad,2016,70687,Diesel,Manual,First,'24.3 kmpl','1248 CC','88.5 bhp',5,'11.02 Lakh'
+Pune,2016,104350,Diesel,Manual,First,'23.59 kmpl','1364 CC','67.04 bhp',5,'8.94 Lakh'
+Chennai,2011,150000,Diesel,Manual,Second,'19.09 kmpl','1396 CC','69 bhp',5,0
+Delhi,2008,81000,Petrol,Manual,First,'17.7 kmpl','1497 CC','78 bhp',5,0
+Kolkata,2008,89000,Petrol,Manual,Second,'14.53 kmpl','1798 CC','138.1 bhp',5,0
+Kochi,2017,35223,Petrol,Manual,First,'18.9 kmpl','1197 CC','82 bhp',5,0
+Kolkata,2015,48000,Petrol,Manual,First,'18.6 kmpl','1197 CC','81.83 bhp',5,0
+Delhi,2015,60000,Diesel,Manual,First,'20.14 kmpl','1498 CC','88.8 bhp',5,0
+Mumbai,2018,7000,Petrol,Manual,First,'23.0 kmpl','998 CC','67 bhp',5,'5.78 Lakh'
+Kochi,2015,47572,Petrol,Manual,First,'18.2 kmpl','1199 CC','82.5 bhp',5,0
+Delhi,2010,72727,Diesel,Manual,Second,'15.4 kmpl','2179 CC','120 bhp',8,0
+Mumbai,2018,4708,Diesel,Manual,First,'21.66 kmpl','1498 CC','108.62 bhp',5,'9.4 Lakh'
+Delhi,2009,55000,Petrol,Manual,Second,'18.9 kmpl','998 CC','67.1 bhp',5,0
+Coimbatore,2013,44198,Petrol,Manual,Second,'18.4 kmpl','1198 CC','86.8 bhp',5,0
+Ahmedabad,2015,35000,Petrol,Manual,First,'16.02 kmpl','1373 CC','93.7 bhp',7,0
+Ahmedabad,2013,63831,Petrol,Manual,First,'0.0 kmpl','1086 CC','62 bhp',5,0
+Delhi,2017,17540,Petrol,Manual,First,'18.16 kmpl','1196 CC','86.8 bhp',5,0
+Mumbai,2017,14000,Petrol,Automatic,First,'23.84 kmpl','1199 CC','84 bhp',5,'6.3 Lakh'
+Bangalore,2007,47000,Petrol,Manual,Second,'0.0 kmpl','1086 CC','null bhp',5,0
+Chennai,2010,75422,Petrol,Manual,Second,'18.6 kmpl','1199 CC','79.4 bhp',5,0
+Hyderabad,2011,67000,Diesel,Manual,Second,'23.08 kmpl','1461 CC','63.1 bhp',5,0
+Delhi,2013,79999,Diesel,Manual,First,'12.99 kmpl','2494 CC','100 bhp',8,0
+Kolkata,2017,5044,Petrol,Manual,First,'20.14 kmpl','1197 CC','81.86 bhp',5,'6.41 Lakh'
+Kolkata,2016,31601,Petrol,Manual,First,'20.73 kmpl','1373 CC','91.1 bhp',5,0
+Delhi,2014,70000,Diesel,Automatic,First,'18.12 kmpl','1995 CC','190 bhp',5,0
+Ahmedabad,2016,16000,Petrol,Automatic,First,'19.16 kmpl','2487 CC','175.67 bhp',5,'40.62 Lakh'
+Mumbai,2016,31700,Diesel,Manual,First,'21.43 kmpl','1364 CC','87.2 bhp',5,0
+Kochi,2014,76969,Diesel,Manual,First,'22.32 kmpl','1582 CC','126.32 bhp',5,0
+Kolkata,2015,37000,Diesel,Automatic,First,'21.21 kmpl','1498 CC','103.2 bhp',5,0
+Mumbai,2014,23000,Petrol,Automatic,First,'11.07 kmpl','2496 CC','179.5 bhp',5,0
+Coimbatore,2014,59098,Petrol,Manual,Second,'17.0 kmpl','1197 CC','80 bhp',5,0
+Kochi,2010,142299,Petrol,Manual,First,'13.07 kmpl','1368 CC','88.76 bhp',5,0
+Jaipur,2011,75731,Diesel,Manual,First,'20.0 kmpl','1399 CC','68 bhp',5,0
+Coimbatore,2017,69627,Petrol,Manual,First,'18.6 kmpl','1197 CC','81.83 bhp',5,0
+Mumbai,2011,49000,Petrol,Manual,First,'15.3 kmpl','1596 CC','99.6 bhp',5,0
+Mumbai,2015,25700,Petrol,Automatic,First,'11.9 kmpl','1595 CC','120.7 bhp',5,0
+Delhi,2012,80800,Petrol,Manual,First,'18.5 kmpl','1197 CC','82.85 bhp',5,0
+Hyderabad,2013,110896,Diesel,Manual,First,'23.4 kmpl','1248 CC','74 bhp',5,0
+Kolkata,2009,62261,Petrol,Manual,First,'17.92 kmpl','1086 CC','62.1 bhp',5,0
+Kochi,2017,27610,Petrol,Manual,First,'21.4 kmpl','1197 CC','83.1 bhp',5,'8.8 Lakh'
+Kochi,2011,89219,Petrol,Manual,First,'10.2 kmpl','2354 CC','180 bhp',5,0
+Hyderabad,2018,6700,Petrol,Automatic,First,'19.34 kmpl','1198 CC','75.94 bhp',5,0
+Pune,2011,51599,Petrol,Manual,First,'19.0 kmpl','998 CC','67.1 bhp',5,0
+Kolkata,2013,37489,Diesel,Manual,First,'22.7 kmpl','1582 CC','126.24 bhp',5,0
+Mumbai,2016,98000,Diesel,Manual,First,'17.5 kmpl','1396 CC','70 bhp',5,0
+Hyderabad,2012,25183,Petrol,Manual,First,'26.0 kmpl','624 CC','35 bhp',4,0
+Bangalore,2015,52100,Diesel,Automatic,Second,'18.12 kmpl','1995 CC','190 bhp',5,0
+Pune,2014,60000,Diesel,Manual,First,'25.8 kmpl','1498 CC','98.6 bhp',5,0
+Kolkata,2013,51000,Diesel,Manual,First,'22.07 kmpl','1199 CC','73.9 bhp',5,0
+Mumbai,2012,70000,Diesel,Manual,First,'22.3 kmpl','1248 CC','74 bhp',5,0
+Jaipur,2015,95000,Diesel,Manual,First,'17.32 kmpl','1968 CC','138.13 bhp',5,0
+Jaipur,2014,66346,Diesel,Manual,First,'26.0 kmpl','1498 CC','98.6 bhp',5,0
+Hyderabad,2015,69150,Diesel,Manual,First,'25.8 kmpl','1498 CC','98.6 bhp',5,0
+Bangalore,2016,31000,Petrol,Manual,First,'18.6 kmpl','1197 CC','81.83 bhp',5,0
+Bangalore,2013,49000,Diesel,Automatic,Second,'18.12 kmpl','1995 CC','190 bhp',5,0
+Kochi,2014,63058,Petrol,Manual,First,'19.4 kmpl','1198 CC','86.8 bhp',5,0
+Delhi,2016,22000,Diesel,Automatic,First,'19.71 kmpl','2143 CC','201.15 bhp',5,0
+Coimbatore,2015,73026,Petrol,Manual,First,'16.47 kmpl','1198 CC','74 bhp',5,0
+Coimbatore,2011,21762,Petrol,Automatic,Second,'19.2 kmpl','1197 CC','80 bhp',5,0
+Coimbatore,2018,29738,Petrol,Manual,First,'17.01 kmpl','1591 CC','121.3 bhp',5,0
+Mumbai,2018,16053,Petrol,Manual,First,'18.6 kmpl','1197 CC','81.83 bhp',5,0
+Kochi,2012,61665,Diesel,Automatic,First,'16.73 kmpl','2993 CC','218 bhp',5,0
+Delhi,2015,51000,Diesel,Manual,First,'19.3 kmpl','1248 CC','73.9 bhp',5,0
+Bangalore,2016,34820,Diesel,Manual,First,'21.9 kmpl','1498 CC','98.6 bhp',7,'15.59 Lakh'
+Mumbai,2018,12000,Petrol,Manual,First,'17.5 kmpl','1373 CC','91.1 bhp',7,0
+Hyderabad,2017,32287,Diesel,Manual,First,'26.59 kmpl','1248 CC','74 bhp',5,0
+Jaipur,2012,121134,Diesel,Manual,First,'23.59 kmpl','1364 CC','null bhp',5,0
+Coimbatore,2015,74485,Diesel,Automatic,First,'16.09 kmpl','1995 CC','184 bhp',5,0
+Chennai,2011,63000,Diesel,Manual,First,'25.44 kmpl','936 CC','57.6 bhp',5,0
+Coimbatore,2018,53190,Diesel,Automatic,First,'18.51 kmpl','1968 CC','147.51 bhp',5,'44.8 Lakh'
+Bangalore,2016,26900,Diesel,Automatic,First,'12.0 kmpl','2987 CC','224 bhp',7,0
+Hyderabad,2015,40000,Diesel,Automatic,First,'19.59 kmpl','1995 CC','184 bhp',5,0
+Coimbatore,2016,40587,Petrol,Manual,First,'18.9 kmpl','1197 CC','82 bhp',5,0
+Hyderabad,2015,27000,Petrol,Manual,First,'18.9 kmpl','1197 CC','82 bhp',5,0
+Coimbatore,2016,29108,Diesel,Manual,First,'23.59 kmpl','1364 CC','67.04 bhp',5,0
+Mumbai,2015,18000,Petrol,Manual,First,'19.83 kmpl','1198 CC','67 bhp',5,'5.74 Lakh'
+Kolkata,2017,10500,Petrol,Manual,First,'20.89 kmpl','1197 CC','81.80 bhp',5,'7.43 Lakh'
+Chennai,2009,60000,Petrol,Manual,Third,'19.0 kmpl','998 CC','66.1 bhp',5,0
+Pune,2011,61000,Petrol,Automatic,Third,'13.9 kmpl','1799 CC','130.3 bhp',5,0
+Kolkata,2017,5000,Petrol,Manual,First,'22.74 kmpl','796 CC','47.3 bhp',5,0
+Pune,2018,24001,Diesel,Automatic,First,'13.6 kmpl','1999 CC','177 bhp',5,'52.96 Lakh'
+Hyderabad,2011,76000,Diesel,Manual,First,'23.0 kmpl','1396 CC','90 bhp',5,0
+Hyderabad,2014,56000,Petrol,Manual,First,'18.88 kmpl','999 CC','123.24 bhp',5,0
+Mumbai,2016,30000,Petrol,Manual,First,'18.15 kmpl','1198 CC','82 bhp',5,0
+Hyderabad,2017,44263,Diesel,Manual,First,'24.3 kmpl','1248 CC','88.5 bhp',5,0
+Hyderabad,2011,97899,Diesel,Manual,First,'20.0 kmpl','1399 CC','68 bhp',5,0
+Jaipur,2011,157301,Diesel,Manual,Second,'20.54 kmpl','1598 CC','103.6 bhp',5,0
+Jaipur,2008,135000,Diesel,Manual,First,'17.8 kmpl','1399 CC','null bhp',5,0
+Pune,2016,35000,Petrol,Manual,Second,'14.4 kmpl','1368 CC','88.8 bhp',5,0
+Pune,2009,106000,Petrol,Manual,First,'13.5 kmpl','1799 CC','130 bhp',5,0
+Kolkata,2016,121590,Diesel,Manual,First,'18.0 kmpl','2000 CC','148 bhp',5,0
+Delhi,2012,64692,Petrol,Manual,First,'22.5 kmpl','998 CC','67.04 bhp',5,'4.59 Lakh'
+Mumbai,2010,41000,Petrol,Manual,First,'20.36 kmpl','1197 CC','78.9 bhp',5,0
+Coimbatore,2018,25143,Diesel,Automatic,First,'22.0 kmpl','1498 CC','108.495 bhp',5,0
+Ahmedabad,2011,51000,Diesel,Manual,First,'20.54 kmpl','1598 CC','103.6 bhp',5,0
+Pune,2005,109000,Diesel,Manual,Second,'13.1 kmpl','1493 CC','82 bhp',5,0
+Kochi,2015,69062,Diesel,Manual,First,'22.7 kmpl','1498 CC','89.84 bhp',5,0
+Kochi,2015,34386,Diesel,Automatic,First,'16.36 kmpl','2179 CC','187.7 bhp',5,0
+Delhi,2016,20185,Petrol,Manual,First,'21.4 kmpl','1197 CC','83.1 bhp',5,0
+Hyderabad,2013,41585,Diesel,Manual,First,'24.0 kmpl','1120 CC','70 bhp',5,0
+Kolkata,2011,24000,Petrol,Manual,First,'21.1 kmpl','814 CC','55.2 bhp',5,0
+Bangalore,2016,40000,Diesel,Automatic,First,'15.0 kmpl','2143 CC','204 bhp',5,0
+Bangalore,2012,37000,Diesel,Automatic,First,'0.0 kmpl','2987 CC','165 bhp',5,0
+Chennai,2015,67630,Diesel,Manual,First,'23.0 kmpl','1498 CC','98.96 bhp',5,'11.48 Lakh'
+Coimbatore,2016,24192,Petrol,Automatic,First,'23.1 kmpl','998 CC','67.04 bhp',5,0
+Hyderabad,2017,32248,Diesel,Manual,First,'24.3 kmpl','1248 CC','88.5 bhp',5,0
+Mumbai,2013,28000,Diesel,Manual,First,'13.0 kmpl','2179 CC','120 bhp',8,0
+Kochi,2018,36471,Petrol,Automatic,First,'14.8 kmpl','1591 CC','121.3 bhp',5,'15.93 Lakh'
+Kochi,2015,69689,Petrol,Manual,First,'17.3 kmpl','1497 CC','117.3 bhp',7,0
+Kochi,2015,69095,Diesel,Automatic,First,'11.3 kmpl','2987 CC','254.8 bhp',7,0
+Kolkata,2010,46000,Petrol,Manual,First,'18.5 kmpl','1197 CC','80 bhp',5,0
+Mumbai,2008,65000,Petrol,Automatic,Third,'10.13 kmpl','3498 CC','364.9 bhp',5,0
+Chennai,2015,119258,Diesel,Manual,First,'20.64 kmpl','1498 CC','108.5 bhp',5,'14.32 Lakh'
+Bangalore,2015,38339,Diesel,Automatic,First,'13.0 kmpl','2143 CC','201.1 bhp',5,0
+Mumbai,2012,59503,Petrol,Manual,First,'16.78 kmpl','1496 CC','88.73 bhp',5,0
+Chennai,2010,93600,Diesel,Manual,Third,'17.0 kmpl','1405 CC','71 bhp',5,0
+Coimbatore,2011,58865,Petrol,Manual,First,'14.3 kmpl','1798 CC','160 bhp',5,0
+Coimbatore,2012,64631,Petrol,Manual,First,'19.7 kmpl','796 CC','46.3 bhp',5,0
+Pune,2007,124298,Diesel,Manual,Second,'17.0 kmpl','1896 CC','105 bhp',5,0
+Jaipur,2003,50000,Petrol,Manual,Second,'18.9 kmpl','998 CC','67.1 bhp',5,0
+Kolkata,2013,40001,Diesel,Manual,First,'21.64 kmpl','1461 CC','84.8 bhp',5,0
+Bangalore,2015,62659,Petrol,Manual,First,'19.4 kmpl','1198 CC','86.8 bhp',5,0
+Kochi,2014,68138,Petrol,Manual,First,'20.36 kmpl','1197 CC','78.9 bhp',5,0
+Mumbai,2014,34000,Diesel,Automatic,First,'15.26 kmpl','2143 CC','203.2 bhp',5,0
+Mumbai,2013,67000,Petrol,Manual,First,'15.04 kmpl','1598 CC','103.6 bhp',5,0
+Delhi,2015,64141,Diesel,Manual,First,'24.2 kmpl','1498 CC','98.6 bhp',7,0
+Kolkata,2019,1000,Petrol,Manual,First,'24.7 kmpl','796 CC','47.3 bhp',5,'3.99 Lakh'
+Mumbai,2013,42000,Diesel,Automatic,First,'13.0 kmpl','2143 CC','201.1 bhp',5,0
+Coimbatore,2009,76677,Petrol,Manual,Third,'16.9 kmpl','1497 CC','100 bhp',5,0
+Kochi,2013,66848,Diesel,Automatic,First,'11.8 kmpl','2967 CC','246.7 bhp',5,0
+Ahmedabad,2007,78000,Petrol,Manual,First,'0.0 kmpl','1086 CC','62 bhp',5,0
+Delhi,2010,111166,Diesel,Manual,First,'19.3 kmpl','1248 CC','73.9 bhp',5,0
+Chennai,2007,76000,Diesel,Manual,First,'18.1 kmpl','1493 CC','110 bhp',5,0
+Coimbatore,2012,94049,Diesel,Automatic,First,'12.8 kmpl','1968 CC','167.6 bhp',5,0
+Ahmedabad,2014,47000,Diesel,Automatic,First,'17.05 kmpl','1995 CC','184 bhp',5,0
+Chennai,2006,140000,Diesel,Manual,Second,'13.5 kmpl','1405 CC','null bhp',5,0
+Delhi,2015,20047,Petrol,Manual,First,'23.9 kmpl','624 CC','37.48 bhp',4,0
+Chennai,2017,16000,Diesel,Automatic,First,'16.77 kmpl','2993 CC','261.49 bhp',5,'1.58 Cr'
+Chennai,2012,27000,Petrol,Manual,First,'18.5 kmpl','1198 CC','86.8 bhp',5,'6.15 Lakh'
+Mumbai,2018,1001,Petrol,Manual,First,'24.7 kmpl','796 CC','47.3 bhp',5,0
+Kolkata,2010,89312,Petrol,Manual,First,'17.0 kmpl','1197 CC','80 bhp',5,0
+Pune,1996,65000,Diesel,Manual,Second,'14.1 kmpl','1995 CC','null bhp',5,0
+Pune,2012,93000,Diesel,Manual,Second,'19.01 kmpl','1461 CC','108.45 bhp',5,0
+Kolkata,2013,48000,Diesel,Manual,First,'23.4 kmpl','1248 CC','74 bhp',5,0
+Coimbatore,2014,64917,Diesel,Manual,First,'28.4 kmpl','1248 CC','73.75 bhp',5,'8.95 Lakh'
+Jaipur,2017,19678,Petrol,Manual,First,'17.8 kmpl','1497 CC','117.3 bhp',5,0
+Kolkata,2014,12000,Diesel,Automatic,First,'14.74 kmpl','2993 CC','270.9 bhp',5,0
+Delhi,2014,41309,Diesel,Automatic,First,'18.88 kmpl','1995 CC','184 bhp',5,0
+Coimbatore,2018,25038,Diesel,Automatic,First,'21.76 kmpl','1995 CC','190 bhp',5,'62.07 Lakh'
+Coimbatore,2016,68673,Diesel,Manual,First,'25.44 kmpl','936 CC','56.3 bhp',5,0
+Coimbatore,2018,26343,Diesel,Automatic,First,'19.27 kmpl','2143 CC','167.62 bhp',5,0
+Bangalore,2005,81245,Petrol,Manual,'Fourth & Above','16.8 kmpl','796 CC','34.2 bhp',8,0
+Delhi,2012,62100,Diesel,Manual,First,'23.08 kmpl','1461 CC','63.1 bhp',5,0
+Pune,2013,104000,Petrol,Manual,First,'15.04 kmpl','1598 CC','103.6 bhp',5,0
+Coimbatore,2014,114831,Diesel,Automatic,First,'17.68 kmpl','1968 CC','174.33 bhp',5,0
+Mumbai,2010,46000,Petrol,Manual,First,'14.6 kmpl','1368 CC','88.7 bhp',5,0
+Jaipur,2014,80000,Diesel,Manual,First,'22.32 kmpl','1582 CC','126.32 bhp',5,0
+Kolkata,2016,9201,Petrol,Manual,First,'17.19 kmpl','1197 CC','81.86 bhp',5,0
+Kochi,2013,55311,Petrol,Manual,First,'19.4 kmpl','1198 CC','86.8 bhp',5,0
+Coimbatore,2015,58217,Diesel,Manual,First,'24.5 kmpl','1498 CC','98.6 bhp',7,0
+Delhi,2013,70655,Diesel,Manual,First,'13.5 kmpl','2477 CC','175.56 bhp',7,'31.93 Lakh'
+Kolkata,2015,46000,Petrol,Manual,First,'20.36 kmpl','1197 CC','78.9 bhp',5,0
+Pune,2014,125000,Diesel,Manual,First,'21.02 kmpl','1248 CC','88.8 bhp',5,0
+Mumbai,2014,59000,Diesel,Manual,First,'19.01 kmpl','1461 CC','108.45 bhp',5,0
+Mumbai,2013,66000,Diesel,Automatic,Second,'22.0 kmpl','1582 CC','126.2 bhp',5,'15.88 Lakh'
+Hyderabad,2009,82242,Diesel,Manual,First,'21.1 kmpl','1248 CC','73.9 bhp',5,0
+Hyderabad,2012,107281,Diesel,Manual,First,'12.8 kmpl','2494 CC','102 bhp',8,0
+Chennai,2015,196000,Diesel,Manual,Second,'12.2 kmpl','1948 CC','68 bhp',10,0
+Ahmedabad,2015,75000,Diesel,Automatic,First,'15.17 kmpl','1968 CC','181 bhp',5,'43.65 Lakh'
+Kolkata,2011,11791,Petrol,Manual,First,'16.2 kmpl','1172 CC','68 bhp',5,0
+Ahmedabad,2013,46000,Petrol,Manual,First,'16.3 kmpl','1797 CC','147.5 bhp',5,0
+Pune,2011,81000,Diesel,Manual,Second,'22.07 kmpl','1199 CC','73.9 bhp',5,0
+Coimbatore,2015,46950,Petrol,Manual,First,'17.71 kmpl','1197 CC','78.8 bhp',5,'8.23 Lakh'
+Chennai,2017,18000,Petrol,Manual,First,'18.9 kmpl','1197 CC','82 bhp',5,0
+Coimbatore,2016,95942,Diesel,Manual,First,'15.4 kmpl','2179 CC','120 bhp',7,0
+Kochi,2016,42925,Petrol,Manual,First,'20.73 kmpl','1373 CC','91.1 bhp',5,0
+Hyderabad,2014,33750,Petrol,Manual,First,'15.6 kmpl','1196 CC','70.02 bhp',5,0
+Mumbai,2016,14000,Petrol,Automatic,First,'13.6 kmpl','1598 CC','181 bhp',4,0
+Bangalore,2015,29000,Diesel,Manual,First,'19.67 kmpl','1582 CC','126.2 bhp',5,0
+Kochi,2015,67365,Diesel,Manual,First,'15.1 kmpl','2179 CC','140 bhp',7,0
+Coimbatore,2014,67791,Diesel,Manual,First,'15.1 kmpl','2179 CC','140 bhp',7,0
+Hyderabad,2016,20000,Diesel,Manual,First,'16.55 kmpl','2498 CC','105 bhp',6,0
+Jaipur,2011,90198,Diesel,Manual,Second,'19.3 kmpl','1248 CC','73.9 bhp',5,0
+Pune,2010,77000,Petrol,Manual,First,'19.81 kmpl','1086 CC','68.05 bhp',5,0
+Kochi,2017,42520,Petrol,Manual,First,'20.73 kmpl','1373 CC','91.1 bhp',5,0
+Jaipur,2009,87829,LPG,Manual,First,'17.3 km/kg','1061 CC','57.5 bhp',5,0
+Ahmedabad,2017,21701,Petrol,Automatic,First,'21.4 kmpl','1197 CC','83.1 bhp',5,'8.57 Lakh'
+Coimbatore,2008,86033,Petrol,Manual,First,'19.7 kmpl','796 CC','46.3 bhp',5,0
+Mumbai,2015,25000,Petrol,Manual,First,'19.1 kmpl','1197 CC','81.86 bhp',5,0
+Kolkata,2011,45000,Diesel,Manual,First,'21.43 kmpl','1364 CC','87.2 bhp',5,0
+Coimbatore,2018,22987,Petrol,Manual,First,'16.47 kmpl','1198 CC','73.9 bhp',5,0
+Jaipur,2009,48725,Petrol,Manual,First,'19.81 kmpl','1086 CC','68.05 bhp',5,0
+Hyderabad,2013,42500,Petrol,Manual,First,'18.9 kmpl','1197 CC','81.86 bhp',5,'7.19 Lakh'
+Mumbai,2014,35000,Petrol,Automatic,First,'17.1 kmpl','1591 CC','121.4 bhp',5,0
+Bangalore,2014,56000,Diesel,Manual,Second,'17.8 kmpl','1399 CC','68 bhp',5,0
+Hyderabad,2014,10000,Diesel,Manual,First,'13.49 kmpl','2179 CC','138.03 bhp',5,0
+Mumbai,2010,15669,Petrol,Manual,First,'20.92 kmpl','998 CC','67.1 bhp',5,0
+Kochi,2016,55331,Diesel,Automatic,First,'17.68 kmpl','1968 CC','174.33 bhp',5,0
+Pune,2015,44535,Diesel,Manual,First,'20.46 kmpl','1461 CC','83.8 bhp',5,0
+Delhi,2012,74000,Diesel,Manual,First,'16.55 kmpl','2498 CC','105 bhp',7,0
+Delhi,2014,77901,Diesel,Manual,First,'12.99 kmpl','2494 CC','100.6 bhp',7,0
+Kolkata,2010,58186,Petrol,Manual,First,'17.5 kmpl','1298 CC','85.8 bhp',5,0
+Mumbai,2010,30000,Petrol,Manual,First,'14.2 kmpl','1598 CC','102 bhp',5,0
+Bangalore,2012,90000,Diesel,Manual,First,'23.59 kmpl','1364 CC','null bhp',5,0
+Coimbatore,2018,14730,Petrol,Automatic,First,'13.5 kmpl','1999 CC','246.74 bhp',5,'56.98 Lakh'
+Jaipur,2013,40000,Petrol,Manual,Second,'19.7 kmpl','796 CC','46.3 bhp',5,0
+Chennai,2007,88107,Petrol,Manual,Second,'15.26 kmpl','1150 CC','74.9 bhp',5,0
+Delhi,2012,53226,Diesel,Manual,Second,'20.64 kmpl','1498 CC','108.5 bhp',5,'14.13 Lakh'
+Hyderabad,2013,76000,Diesel,Manual,First,'25.2 kmpl','1248 CC','74 bhp',5,0
+Hyderabad,2008,200000,Diesel,Manual,Second,'12.8 kmpl','2494 CC','102 bhp',8,0
+Hyderabad,2013,73000,Diesel,Automatic,First,'14.21 kmpl','2143 CC','203 bhp',5,0
+Jaipur,2009,77200,Petrol,Manual,Second,'13.2 kmpl','1495 CC','94 bhp',5,0
+Delhi,2012,67000,Diesel,Automatic,Second,'15.2 kmpl','1968 CC','140.8 bhp',5,0
+Hyderabad,2005,150000,Diesel,Manual,Second,'14.8 kmpl','2499 CC','80 bhp',10,0
+Jaipur,2009,145278,Diesel,Manual,Second,'11.68 kmpl','2498 CC','112 bhp',8,0
+Chennai,2015,62083,Diesel,Manual,First,'21.19 kmpl','1396 CC','88.76 bhp',5,'11.48 Lakh'
+Pune,2010,61696,Petrol,Manual,First,'13.5 kmpl','1799 CC','130 bhp',5,0
+Ahmedabad,2017,28000,Diesel,Manual,First,'23.0 kmpl','1498 CC','98.96 bhp',5,'11.2 Lakh'
+Coimbatore,2013,50142,Diesel,Automatic,First,'14.84 kmpl','2143 CC','170 bhp',5,0
+Mumbai,2014,45000,Petrol,Automatic,First,'13.7 kmpl','1798 CC','157.75 bhp',5,0
+Pune,2014,97513,Diesel,Manual,First,'21.14 kmpl','1498 CC','103.52 bhp',5,0
+Mumbai,2011,55000,Petrol,Automatic,Second,'12.3 kmpl','1796 CC','185 bhp',5,0
+Hyderabad,2004,82000,Petrol,Manual,Second,'16.1 kmpl','796 CC','37 bhp',4,0
+Delhi,2013,71501,Diesel,Manual,First,'22.9 kmpl','1248 CC','74 bhp',5,0
+Hyderabad,2017,23000,Diesel,Manual,First,'21.9 kmpl','1498 CC','98.6 bhp',7,'14.13 Lakh'
+Kochi,2015,66095,Diesel,Automatic,First,'17.68 kmpl','1968 CC','174.33 bhp',5,0
+Mumbai,2014,49500,Diesel,Manual,First,'11.5 kmpl','2982 CC','171 bhp',7,0
+Chennai,2009,90000,Petrol,Manual,First,'13.4 kmpl','2362 CC','164.7 bhp',5,0
+Mumbai,2017,25384,Petrol,Manual,First,'20.89 kmpl','1197 CC','81.80 bhp',5,'6.41 Lakh'
+Delhi,2016,27529,Petrol,Manual,Second,'17.01 kmpl','1591 CC','121.3 bhp',5,0
+Kochi,2012,69297,Petrol,Manual,First,'16.8 kmpl','1497 CC','116.3 bhp',5,0
+Hyderabad,2009,66000,Petrol,Manual,First,'17.0 kmpl','1497 CC','118 bhp',5,0
+Hyderabad,2012,20000,Diesel,Manual,First,'21.03 kmpl','1461 CC','65 bhp',5,'9.12 Lakh'
+Chennai,2015,67000,Diesel,Automatic,First,'11.3 kmpl','2987 CC','254.8 bhp',7,0
+Coimbatore,2015,36933,Petrol,Manual,First,'21.1 kmpl','814 CC','55.2 bhp',5,0
+Mumbai,2007,194000,Diesel,Manual,First,'12.99 kmpl','2494 CC','100.6 bhp',8,0
+Kolkata,2013,42200,Diesel,Manual,First,'20.77 kmpl','1248 CC','88.76 bhp',7,0
+Coimbatore,2015,53093,Diesel,Automatic,Second,'12.07 kmpl','2967 CC','241.4 bhp',7,0
+Pune,2012,88000,Petrol,Manual,Third,'17.0 kmpl','1497 CC','118 bhp',5,0
+Kochi,2017,42954,Petrol,Manual,First,'24.07 kmpl','998 CC','67.1 bhp',5,'3.91 Lakh'
+Chennai,2015,106000,Diesel,Manual,First,'25.0 kmpl','1396 CC','69 bhp',5,0
+Kochi,2015,41700,Diesel,Automatic,First,'18.12 kmpl','1995 CC','190 bhp',5,0
+Coimbatore,2018,34464,Diesel,Automatic,First,'19.27 kmpl','2143 CC','170 bhp',5,0
+Ahmedabad,2010,15000,Petrol,Manual,First,'17.8 kmpl','1199 CC','76.8 bhp',5,0
+Pune,2010,70000,Petrol,Manual,Second,'19.0 kmpl','998 CC','67.1 bhp',5,0
+Hyderabad,2017,119256,Diesel,Manual,First,'16.0 kmpl','2179 CC','140 bhp',7,0
+Coimbatore,2011,50036,Petrol,Manual,First,'17.0 kmpl','1497 CC','118 bhp',5,0
+Ahmedabad,2013,58000,Diesel,Manual,First,'12.99 kmpl','2494 CC','100.6 bhp',7,0
+Pune,2011,75000,Petrol,Manual,First,'18.5 kmpl','1197 CC','80 bhp',5,0
+Hyderabad,2013,53313,Petrol,Manual,First,'20.92 kmpl','998 CC','67.1 bhp',5,0
+Kolkata,2015,73000,Diesel,Manual,First,'12.99 kmpl','2494 CC','100.6 bhp',8,0
+Kochi,2013,83989,Diesel,Manual,First,'23.08 kmpl','1461 CC','63.1 bhp',5,0
+Chennai,2015,86247,Diesel,Manual,First,'19.67 kmpl','1582 CC','126.2 bhp',5,0
+Mumbai,2016,24000,Diesel,Manual,First,'12.99 kmpl','2494 CC','100.6 bhp',8,0
+Hyderabad,2010,58000,Diesel,Automatic,First,'14.21 kmpl','2143 CC','203 bhp',5,0
+Kolkata,2015,33000,Petrol,Manual,First,'18.6 kmpl','1197 CC','81.83 bhp',5,0
+Hyderabad,2005,100000,Petrol,Automatic,First,'11.1 kmpl','2354 CC','142 bhp',5,0
+Hyderabad,2017,65896,Diesel,Manual,First,'13.68 kmpl','2393 CC','147.8 bhp',7,'25.04 Lakh'
+Chennai,2016,120000,Diesel,Manual,First,'22.54 kmpl','1396 CC','88.73 bhp',5,0
+Mumbai,2013,26000,Diesel,Manual,First,'20.8 kmpl','1461 CC','64.1 bhp',5,'8.92 Lakh'
+Chennai,2012,62300,Petrol,Manual,Second,'15.1 kmpl','1196 CC','73 bhp',5,'5.01 Lakh'
+Kochi,2012,77801,Petrol,Manual,First,'14.28 kmpl','1798 CC','138.03 bhp',5,'19.01 Lakh'
+Mumbai,2015,42000,Petrol,Automatic,First,'14.28 kmpl','1798 CC','138.03 bhp',5,0
+Bangalore,2013,35000,Petrol,Automatic,Second,'15.5 kmpl','1595 CC','120.7 bhp',5,0
+Kolkata,2016,30134,Diesel,Manual,First,'22.54 kmpl','1396 CC','88.73 bhp',5,0
+Delhi,2012,79038,Petrol,Manual,First,'12.8 kmpl','2354 CC','177.6 bhp',5,0
+Mumbai,2009,80000,Petrol,Automatic,Second,'11.7 kmpl','2354 CC','177.6 bhp',5,0
+Hyderabad,2012,75000,Diesel,Manual,First,'15.96 kmpl','2523 CC','62.1 bhp',7,0
+Bangalore,2010,80000,Diesel,Manual,First,'21.1 kmpl','1248 CC','73.9 bhp',5,0
+Delhi,2014,84419,Petrol,Automatic,First,'13.7 kmpl','1798 CC','157.75 bhp',5,0
+Kolkata,2013,70200,Petrol,Manual,First,'18.0 kmpl','1198 CC','86.7 bhp',5,0
+Chennai,2013,98000,Petrol,Manual,Second,'15.04 kmpl','1598 CC','103.6 bhp',5,0
+Chennai,2016,131503,Diesel,Manual,First,'23.2 kmpl','1248 CC','73.94 bhp',5,0
+Jaipur,2011,54652,Petrol,Manual,First,'17.0 kmpl','1497 CC','118 bhp',5,0
+Mumbai,2010,92000,Petrol,Manual,Second,'14.0 kmpl','1595 CC','102 bhp',5,0
+Kolkata,2010,44287,Petrol,Manual,First,'15.6 kmpl','1196 CC','70 bhp',5,0
+Pune,2015,205000,Diesel,Manual,First,'12.99 kmpl','2494 CC','100.6 bhp',7,0
+Hyderabad,2015,48000,Petrol,Manual,First,'18.6 kmpl','1197 CC','81.86 bhp',5,'9.45 Lakh'
+Mumbai,2016,18000,Diesel,Manual,First,'25.32 kmpl','1198 CC','77 bhp',6,0
+Bangalore,2008,31200,Petrol,Automatic,Second,'10.2 kmpl','5998 CC','616 bhp',5,'3.75 Cr'
+Pune,2009,72000,Petrol,Manual,First,'17.0 kmpl','1497 CC','118 bhp',5,0
+Mumbai,2009,85000,Petrol,Manual,First,'18.5 kmpl','1197 CC','80 bhp',5,0
+Kolkata,2010,27000,Petrol,Manual,First,'17.0 kmpl','1497 CC','118 bhp',5,0
+Mumbai,2012,126000,Diesel,Manual,First,'14.24 kmpl','2755 CC','174.5 bhp',7,'35.16 Lakh'
+Pune,2017,50000,Diesel,Manual,First,'17.88 kmpl','1405 CC','48.21 bhp',5,0
+Mumbai,2013,58811,Petrol,Manual,Second,'18.0 kmpl','1198 CC','86.7 bhp',5,0
+Pune,2013,52196,Diesel,Manual,First,'22.07 kmpl','1199 CC','73.9 bhp',5,0
+Coimbatore,2017,45105,Petrol,Manual,First,'19.69 kmpl','1198 CC','67.04 bhp',5,'6.78 Lakh'
+Hyderabad,2015,25160,Petrol,Manual,Second,'18.9 kmpl','1197 CC','82 bhp',5,0
+Hyderabad,2017,18000,Petrol,Manual,First,'20.3 kmpl','1199 CC','84 bhp',5,0
+Bangalore,2007,74000,Petrol,Manual,First,'11.9 kmpl','2354 CC','144 bhp',5,0
+Chennai,2009,67700,Diesel,Manual,First,'14.0 kmpl','2498 CC','112 bhp',7,0
+Kochi,2015,61062,Diesel,Automatic,First,'12.39 kmpl','2179 CC','147.51 bhp',5,0
+Kolkata,2016,105000,Diesel,Manual,First,'12.99 kmpl','2494 CC','100.6 bhp',7,0
+Pune,2013,155550,Diesel,Manual,First,'25.0 kmpl','1396 CC','69.01 bhp',5,0
+Delhi,2016,66000,Diesel,Manual,First,'24.3 kmpl','1248 CC','88.5 bhp',5,0
+Kochi,2012,93884,Petrol,Manual,Second,'17.0 kmpl','1497 CC','118 bhp',5,0
+Mumbai,2009,200000,Diesel,Manual,First,'20.4 kmpl','1248 CC','91.7 bhp',5,0
+Kolkata,2016,57200,Petrol,Manual,First,'23.84 kmpl','1199 CC','84 bhp',5,'6.24 Lakh'
+Hyderabad,2013,93568,Diesel,Manual,First,'22.07 kmpl','1199 CC','73.9 bhp',5,0
+Kolkata,2014,54000,Petrol,Manual,First,'20.51 kmpl','998 CC','67.04 bhp',5,0
+Bangalore,2016,40571,Diesel,Automatic,First,'17.01 kmpl','1582 CC','126.2 bhp',5,0
+Hyderabad,2015,59000,Diesel,Automatic,First,'18.25 kmpl','1968 CC','187.74 bhp',5,'55.61 Lakh'
+Coimbatore,2017,17273,Diesel,Automatic,First,'20.68 kmpl','1995 CC','190 bhp',5,0
+Mumbai,2011,100077,Diesel,Automatic,Second,'11.4 kmpl','2953 CC','153.86 bhp',7,0
+Kochi,2011,39934,Petrol,Automatic,First,'19.2 kmpl','1197 CC','80 bhp',5,0
+Bangalore,2016,46000,Diesel,Manual,First,'24.3 kmpl','1248 CC','88.5 bhp',5,'9.42 Lakh'
+Coimbatore,2016,30842,Petrol,Manual,First,'17.0 kmpl','1497 CC','118 bhp',5,0
+Mumbai,2005,65000,Petrol,Automatic,Second,'11.7 kmpl','1796 CC','178 bhp',5,0
+Bangalore,2016,70000,Diesel,Manual,First,'11.1 kmpl','2400 CC','200 bhp',7,0
+Chennai,2011,150152,Diesel,Manual,Second,'11.5 kmpl','2982 CC','171 bhp',7,0
+Coimbatore,2009,67038,Petrol,Automatic,First,'9.1 kmpl','2349 CC','null bhp',5,0
+Bangalore,2011,43985,CNG,Manual,First,'11.88 km/kg','1086 CC','62.1 bhp',5,0
+Coimbatore,2014,58598,Diesel,Automatic,First,'11.2 kmpl','2993 CC','241 bhp',4,0
+Pune,2016,100000,Diesel,Manual,First,'25.0 kmpl','1396 CC','69.01 bhp',5,0
+Jaipur,2016,35000,Diesel,Automatic,First,'14.16 kmpl','1968 CC','174.3 bhp',5,0
+Pune,2008,84500,Petrol,Manual,First,'20.36 kmpl','1197 CC','78.9 bhp',5,0
+Kolkata,2018,18006,Petrol,Manual,First,'21.4 kmpl','1197 CC','83.1 bhp',5,0
+Hyderabad,2013,99000,Diesel,Manual,First,'28.4 kmpl','1248 CC','74 bhp',5,'8.44 Lakh'
+Delhi,2014,51200,Petrol,Manual,First,'15.1 kmpl','1196 CC','73 bhp',5,'4.56 Lakh'
+Pune,2014,130000,Diesel,Automatic,First,'11.0 kmpl','2982 CC','170.30 bhp',7,0
+Ahmedabad,2017,25000,Diesel,Automatic,First,'16.38 kmpl','1995 CC','182.46 bhp',5,'29.9 Lakh'
+Kochi,2017,32352,Petrol,Manual,First,'21.4 kmpl','1197 CC','83.1 bhp',5,'7.12 Lakh'
+Bangalore,2011,20000,Petrol,Manual,First,'20.36 kmpl','1197 CC','78.9 bhp',5,0
+Bangalore,2013,46000,Diesel,Automatic,Second,'16.55 kmpl','1968 CC','147.51 bhp',5,0
+Mumbai,2018,12500,Petrol,Automatic,First,'22.0 kmpl','1197 CC','81.80 bhp',5,'9.94 Lakh'
+Delhi,2011,53138,Diesel,Manual,Third,'12.8 kmpl','2494 CC','102 bhp',8,0
+Pune,2013,170000,Diesel,Manual,Second,'23.4 kmpl','1248 CC','74 bhp',5,0
+Kolkata,2012,38583,Diesel,Manual,First,'22.9 kmpl','1248 CC','74 bhp',5,0
+Hyderabad,2016,26000,Petrol,Automatic,First,'22.5 kmpl','998 CC','67 bhp',5,'6.44 Lakh'
+Coimbatore,2017,22865,Petrol,Manual,First,'15.29 kmpl','1591 CC','121.3 bhp',5,0
+Kolkata,2013,45000,Diesel,Manual,First,'17.5 kmpl','1896 CC','106 bhp',5,0
+Kochi,2017,62889,Petrol,Manual,First,'20.4 kmpl','1197 CC','81.80 bhp',5,0
+Pune,2013,153000,Petrol,Manual,First,'16.8 kmpl','796 CC','34.2 bhp',5,0
+Ahmedabad,2016,67000,Diesel,Manual,First,'28.4 kmpl','1248 CC','74 bhp',5,'7.67 Lakh'
+Mumbai,2014,39000,Petrol,Automatic,First,'15.5 kmpl','1198 CC','86.7 bhp',5,0
+Chennai,2006,164000,Petrol,Manual,Second,'13.4 kmpl','1794 CC','125 bhp',5,0
+Coimbatore,2018,57178,Diesel,Manual,First,'19.3 kmpl','1248 CC','73.9 bhp',5,0
+Delhi,2013,40000,Diesel,Automatic,First,'17.68 kmpl','1968 CC','174.33 bhp',5,0
+Mumbai,2007,40000,Petrol,Manual,First,'18.0 kmpl','995 CC','62 bhp',5,0
+Mumbai,2007,89564,Diesel,Manual,Third,'18.1 kmpl','1493 CC','110 bhp',5,0
+Delhi,2012,66727,Petrol,Manual,First,'16.02 kmpl','1373 CC','93.7 bhp',7,0
+Mumbai,2013,75000,Diesel,Automatic,Second,'15.73 kmpl','1968 CC','174.33 bhp',5,0
+Coimbatore,2017,31056,Diesel,Automatic,First,'14.81 kmpl','1998 CC','163.7 bhp',5,0
+Pune,2011,61000,Petrol,Manual,First,'15.04 kmpl','1598 CC','103.6 bhp',5,0
+Kochi,2016,34782,Petrol,Automatic,First,'16.9 kmpl','1197 CC','82 bhp',5,0
+Coimbatore,2012,31736,Petrol,Manual,First,'20.36 kmpl','1197 CC','78.9 bhp',5,0
+Pune,2014,75000,Diesel,Manual,First,'19.64 kmpl','1461 CC','108.5 bhp',5,'16.82 Lakh'
+Mumbai,2014,15000,Diesel,Manual,First,'16.55 kmpl','2498 CC','105 bhp',6,0
+Coimbatore,2016,38503,Diesel,Manual,First,'22.7 kmpl','1498 CC','89.84 bhp',5,0
+Coimbatore,2017,45353,Diesel,Manual,First,'21.9 kmpl','1498 CC','98.6 bhp',7,'15.59 Lakh'
+Hyderabad,2015,30000,Diesel,Automatic,First,'12.7 kmpl','2179 CC','187.7 bhp',5,0
+Pune,2011,69470,Petrol,Manual,Second,'17.6 kmpl','1496 CC','88.73 bhp',5,0
+Chennai,2008,63288,Petrol,Automatic,First,'9.1 kmpl','2349 CC','null bhp',5,0
+Coimbatore,2017,25087,Petrol,Manual,First,'16.47 kmpl','1198 CC','74 bhp',5,0
+Hyderabad,2015,134000,Diesel,Manual,First,'12.8 kmpl','2494 CC','102 bhp',7,0
+Coimbatore,2015,54955,Diesel,Automatic,Third,'14.81 kmpl','1998 CC','163.7 bhp',5,0
+Mumbai,2017,28000,Diesel,Manual,First,'22.0 kmpl','1582 CC','126.2 bhp',5,'15.57 Lakh'
+Ahmedabad,2015,45250,Diesel,Manual,First,'25.8 kmpl','1498 CC','98.6 bhp',5,0
+Kochi,2012,89190,Diesel,Automatic,Second,'11.4 kmpl','2993 CC','245.41 bhp',7,0
+Coimbatore,2017,48184,Diesel,Manual,First,'26.0 kmpl','1498 CC','98.6 bhp',5,0
+Kolkata,2015,42125,Diesel,Manual,First,'26.59 kmpl','1248 CC','74 bhp',5,0
+Coimbatore,2017,47052,Petrol,Automatic,First,'19.15 kmpl','1198 CC','75.94 bhp',5,'9.51 Lakh'
+Mumbai,2011,67000,Petrol,Manual,Second,'20.36 kmpl','1197 CC','78.9 bhp',5,0
+Bangalore,2011,43189,Petrol,Manual,First,'0.0 kmpl','999 CC','null bhp',5,0
+Pune,2015,174889,Diesel,Manual,First,'26.59 kmpl','1248 CC','74 bhp',5,0
+Pune,2004,72135,Petrol,Manual,First,'19.7 kmpl','796 CC','46.3 bhp',5,0
+Delhi,2017,17660,Diesel,Manual,First,'24.3 kmpl','1248 CC','88.5 bhp',5,'11.75 Lakh'
+Pune,2009,120000,Petrol,Automatic,First,'11.7 kmpl','2354 CC','177.6 bhp',5,0
+Pune,2010,29629,Petrol,Manual,First,'18.6 kmpl','1199 CC','76.8 bhp',5,0
+Coimbatore,2016,69564,Diesel,Manual,First,'17.8 kmpl','1248 CC','null bhp',5,0
+Kochi,2017,34848,Diesel,Automatic,First,'17.9 kmpl','2143 CC','170 bhp',5,'63.47 Lakh'
+Kolkata,2013,61000,Diesel,Manual,First,'14.0 kmpl','2498 CC','112 bhp',8,0
+Mumbai,2015,21000,Petrol,Manual,First,'19.83 kmpl','1198 CC','67 bhp',7,'6.7 Lakh'
+Kochi,2015,27912,Diesel,Automatic,First,'16.36 kmpl','2179 CC','187.7 bhp',5,0
+Kochi,2013,62909,Diesel,Manual,First,'21.5 kmpl','1248 CC','88.8 bhp',5,0
+Kochi,2018,33140,Petrol,Manual,First,'23.1 kmpl','998 CC','67.04 bhp',5,0
+Hyderabad,2014,75000,Diesel,Automatic,First,'21.21 kmpl','1498 CC','103.2 bhp',5,0
+Kochi,2017,25571,Diesel,Manual,First,'22.77 kmpl','1498 CC','98.59 bhp',5,0
+Chennai,2002,120000,Petrol,Manual,'Fourth & Above','0.0 kmpl','999 CC','null bhp',5,0
+Kolkata,2016,12020,Diesel,Manual,First,'20.77 kmpl','1248 CC','88.76 bhp',7,0
+Mumbai,2014,36665,Petrol,Automatic,First,'16.5 kmpl','1198 CC','86.8 bhp',5,0
+Coimbatore,2018,41502,Diesel,Automatic,First,'13.5 kmpl','2477 CC','175.56 bhp',7,'34.1 Lakh'
+Pune,2011,130000,Diesel,Automatic,First,'14.21 kmpl','2143 CC','203 bhp',5,0
+Bangalore,2017,51000,Diesel,Manual,First,'25.2 kmpl','1248 CC','74 bhp',5,0
+Pune,2008,103000,Petrol,Manual,Second,'13.2 kmpl','1495 CC','94 bhp',5,0
+Delhi,2012,70000,Diesel,Automatic,First,'16.55 kmpl','1968 CC','147.51 bhp',5,0
+Delhi,2010,56239,Petrol,Manual,Second,'17.0 kmpl','1497 CC','118 bhp',5,0
+Ahmedabad,2016,40000,Diesel,Automatic,First,'22.69 kmpl','1995 CC','190 bhp',5,0
+Kochi,2018,19964,Petrol,Automatic,First,'22.5 kmpl','999 CC','67 bhp',5,'5.31 Lakh'
+Coimbatore,2012,72246,Diesel,Manual,First,'13.6 kmpl','2523 CC','63 bhp',7,0
+Kolkata,2018,15000,Diesel,Manual,First,'20.5 kmpl','1582 CC','126.2 bhp',5,'15.24 Lakh'
+Bangalore,2016,14000,Petrol,Manual,'Fourth & Above','23.9 kmpl','624 CC','37.48 bhp',4,0
+Pune,2016,22764,Petrol,Manual,First,'16.2 kmpl','1199 CC','74 bhp',5,0
+Pune,2012,65000,Diesel,Automatic,First,'18.33 kmpl','1968 CC','167.7 bhp',5,0
+Kolkata,2016,45000,Diesel,Manual,First,'12.08 kmpl','2999 CC','161 bhp',7,0
+Coimbatore,2017,32090,Diesel,Automatic,First,'13.0 kmpl','2143 CC','204 bhp',5,0
+Pune,2014,83000,Diesel,Manual,First,'15.1 kmpl','2179 CC','140 bhp',7,0
+Delhi,2011,70000,Diesel,Automatic,First,'13.0 kmpl','2143 CC','204 bhp',5,0
+Chennai,2013,68000,Diesel,Manual,First,'16.0 kmpl','2179 CC','140 bhp',7,0
+Jaipur,2012,105000,Petrol,Manual,First,'16.95 kmpl','1498 CC','97.7 bhp',5,0
+Hyderabad,2006,88000,Petrol,Manual,First,'13.0 kmpl','1795 CC','127 bhp',5,0
+Mumbai,2007,93000,Petrol,Automatic,Second,'11.1 kmpl','2354 CC','142 bhp',5,0
+Delhi,2014,107000,Diesel,Manual,First,'26.0 kmpl','1498 CC','98.6 bhp',5,0
+Pune,2011,141844,Diesel,Manual,First,'12.55 kmpl','2982 CC','168.5 bhp',7,0
+Coimbatore,2015,32469,Petrol,Automatic,First,'19.34 kmpl','1198 CC','76 bhp',5,0
+Kochi,2015,56318,Diesel,Manual,First,'15.1 kmpl','2179 CC','140 bhp',7,0
+Coimbatore,2017,26002,Diesel,Automatic,First,'20.7 kmpl','1496 CC','113.98 bhp',4,'36.5 Lakh'
+Pune,2014,83000,Diesel,Manual,First,'25.2 kmpl','1248 CC','74 bhp',5,0
+Pune,2010,80000,Petrol,Manual,Second,'18.6 kmpl','1199 CC','79.4 bhp',5,0
+Chennai,2016,56474,Petrol,Manual,Second,'21.4 kmpl','1197 CC','83.1 bhp',5,0
+Mumbai,2012,26000,Petrol,Automatic,Second,'14.8 kmpl','1595 CC','120.69 bhp',5,'37.03 Lakh'
+Mumbai,2009,49000,Petrol,Automatic,Second,'9.74 kmpl','1984 CC','208 bhp',5,0
+Kochi,2010,64132,Diesel,Automatic,Second,'17.0 kmpl','1896 CC','105 bhp',5,0
+Hyderabad,2016,41810,Diesel,Manual,First,'19.67 kmpl','1582 CC','126.2 bhp',5,0
+Mumbai,2013,60000,Diesel,Automatic,First,'16.46 kmpl','2993 CC','258 bhp',5,0
+Coimbatore,2016,22177,Diesel,Automatic,First,'0.0 kmpl','2987 CC','165 bhp',5,0
+Chennai,2014,100000,Diesel,Manual,First,'20.0 kmpl','1399 CC','68.05 bhp',5,0
+Pune,2012,75000,Diesel,Automatic,First,'20.0 kmpl','1968 CC','138.1 bhp',5,0
+Mumbai,2011,68000,Diesel,Manual,First,'21.9 kmpl','1396 CC','90 bhp',5,0
+Kochi,2016,43518,Diesel,Manual,First,'12.99 kmpl','2494 CC','100 bhp',7,0
+Pune,2012,39100,Petrol,Automatic,First,'16.98 kmpl','998 CC','66.1 bhp',5,0
+Delhi,2011,58000,Petrol,Manual,First,'17.01 kmpl','1591 CC','121.3 bhp',5,0
+Mumbai,2010,52000,Petrol,Manual,First,'17.0 kmpl','1497 CC','118 bhp',5,0
+Jaipur,2014,80000,Diesel,Automatic,First,'13.2 kmpl','1995 CC','170 bhp',5,0
+Jaipur,2006,96000,Petrol,Manual,Second,'18.2 kmpl','998 CC','67.1 bhp',5,0
+Delhi,2010,63000,Petrol,Automatic,First,'13.7 kmpl','1798 CC','157.75 bhp',5,0
+Hyderabad,2014,50000,Diesel,Automatic,First,'15.73 kmpl','1968 CC','174.33 bhp',5,0
+Hyderabad,2014,15322,Petrol,Manual,First,'21.1 kmpl','814 CC','55.2 bhp',5,0
+Jaipur,2012,47000,Petrol,Manual,First,'19.4 kmpl','1198 CC','86.8 bhp',5,0
+Chennai,2011,76041,Diesel,Manual,First,'20.54 kmpl','1598 CC','103.6 bhp',5,0
+Kolkata,2009,46000,Petrol,Manual,First,'13.2 kmpl','1495 CC','94 bhp',5,0
+Jaipur,2013,160000,Diesel,Manual,Second,'15.96 kmpl','2523 CC','62.1 bhp',7,'10.86 Lakh'
+Bangalore,2015,17000,Diesel,Manual,Second,'27.62 kmpl','793 CC','47 bhp',5,0
+Hyderabad,2014,56000,Diesel,Manual,First,'24.0 kmpl','1120 CC','70 bhp',5,0
+Mumbai,2005,35000,Petrol,Manual,First,'15.3 kmpl','1341 CC','61 bhp',5,0
+Coimbatore,2015,54278,Diesel,Manual,First,'12.99 kmpl','2494 CC','100.6 bhp',7,0
+Kolkata,2015,39000,Diesel,Manual,First,'25.4 kmpl','1186 CC','73.97 bhp',5,'8.85 Lakh'
+Bangalore,2013,40000,Diesel,Automatic,First,'17.68 kmpl','1968 CC','174.33 bhp',5,0
+Kolkata,2013,41000,Petrol,Automatic,First,'15.63 kmpl','1499 CC','110.4 bhp',5,0
+Kolkata,2011,30342,Petrol,Automatic,First,'15.56 kmpl','1998 CC','252 bhp',5,'59.12 Lakh'
+Mumbai,2008,88000,Petrol,Manual,Second,'17.7 kmpl','1497 CC','78 bhp',5,0
+Chennai,2018,9000,Petrol,Manual,First,'21.5 kmpl','1197 CC','81.80 bhp',5,'5.79 Lakh'
+Delhi,2010,70000,Diesel,Manual,First,'19.3 kmpl','1248 CC','73.9 bhp',5,0
+Kolkata,2011,46279,Petrol,Manual,First,'16.47 kmpl','1198 CC','73.9 bhp',5,0
+Pune,2016,105000,Diesel,Manual,Second,'23.2 kmpl','1248 CC','73.94 bhp',5,0
+Chennai,2011,130000,Diesel,Manual,First,'16.52 kmpl','1991 CC','123.7 bhp',5,0
+Jaipur,2017,30000,Petrol,Manual,First,'25.17 kmpl','799 CC','53.3 bhp',5,'3.96 Lakh'
+Kolkata,2013,54000,Diesel,Manual,First,'19.33 kmpl','1968 CC','138.03 bhp',5,0
+Jaipur,2010,65000,Diesel,Manual,First,'20.0 kmpl','1399 CC','68 bhp',5,0
+Hyderabad,2010,70000,Petrol,Manual,First,'17.5 kmpl','1298 CC','85.8 bhp',5,0
+Pune,2015,46000,Diesel,Automatic,First,'13.0 kmpl','2143 CC','204 bhp',5,0
+Pune,2007,113000,Petrol,Manual,First,'18.0 kmpl','995 CC','62 bhp',5,0
+Jaipur,2016,67310,Petrol,Manual,First,'18.9 kmpl','1197 CC','82 bhp',5,0
+Pune,2019,1015,Petrol,Automatic,First,'19.0 kmpl','1199 CC','88.7 bhp',5,'10.55 Lakh'
+Jaipur,2011,83035,Petrol,Manual,Second,'17.0 kmpl','1497 CC','118 bhp',5,0
+Kolkata,2015,36983,Diesel,Manual,First,'12.99 kmpl','2494 CC','100 bhp',7,0
+Pune,2010,76000,Diesel,Manual,Third,'18.3 kmpl','1991 CC','147.9 bhp',5,0
+Coimbatore,2019,14148,Petrol,Automatic,First,'14.3 kmpl','1598 CC','103.52 bhp',5,0
+Kolkata,2011,71428,Diesel,Manual,First,'21.1 kmpl','1248 CC','73.9 bhp',5,0
+Mumbai,2015,10500,Petrol,Manual,Second,'18.5 kmpl','1197 CC','85.80 bhp',5,0
+Kochi,2010,58997,Petrol,Automatic,First,'16.8 kmpl','1497 CC','118 bhp',5,0
+Delhi,2015,39842,Petrol,Manual,First,'23.1 kmpl','998 CC','67.04 bhp',5,0
+Kochi,2015,47490,CNG,Manual,First,'32.26 km/kg','998 CC','58.2 bhp',4,0
+Jaipur,2009,45000,Petrol,Manual,First,'15.8 kmpl','1172 CC','65 bhp',5,0
+Hyderabad,2011,80000,Petrol,Manual,First,'17.4 kmpl','1497 CC','117.3 bhp',5,0
+Bangalore,2012,56600,Diesel,Manual,First,'23.59 kmpl',0,0,0,0
+Coimbatore,2015,55409,Diesel,Manual,First,'20.5 kmpl','1598 CC','103.5 bhp',5,0
+Mumbai,2009,77000,Petrol,Automatic,First,'12.6 kmpl','1586 CC','103.3 bhp',5,0
+Bangalore,2012,58000,Petrol,Automatic,Second,'15.0 kmpl',0,0,0,0
+Coimbatore,2016,59491,Petrol,Manual,First,'22.74 kmpl','796 CC','47.3 bhp',5,0
+Hyderabad,2007,51000,Diesel,Manual,First,'10.5 kmpl','2179 CC','120 bhp',7,0
+Coimbatore,2017,18725,Petrol,Manual,First,'21.4 kmpl','1197 CC','83.1 bhp',5,0
+Bangalore,2009,92000,Petrol,Automatic,First,'11.5 kmpl','2497 CC','218 bhp',5,0
+Coimbatore,2013,61450,Diesel,Manual,First,'21.1 kmpl','1248 CC','73.9 bhp',5,0
+Coimbatore,2016,18592,Petrol,Manual,First,'20.3 kmpl','998 CC','68.05 bhp',5,0
+Bangalore,2013,65137,Diesel,Manual,Second,'18.2 kmpl','1248 CC','73.74 bhp',7,0
+Pune,2011,83000,Diesel,Manual,Second,'22.07 kmpl','1199 CC','73.9 bhp',5,0
+Delhi,2013,37000,Diesel,Automatic,First,'22.32 kmpl','1582 CC','126.3 bhp',5,0
+Coimbatore,2017,14052,Petrol,Automatic,First,'16.0 kmpl','1497 CC','117.3 bhp',7,'15.73 Lakh'
+Coimbatore,2011,45086,Petrol,Manual,First,'20.36 kmpl','1197 CC','78.9 bhp',5,0
+Bangalore,2016,25400,Petrol,Manual,Second,'20.51 kmpl','998 CC','67.04 bhp',5,0
+Hyderabad,2008,194500,Diesel,Manual,First,'12.8 kmpl','2494 CC','102 bhp',8,0
+Pune,2014,89000,Diesel,Manual,First,'12.8 kmpl','2494 CC','102 bhp',8,0
+Kolkata,2012,50000,Diesel,Manual,First,'23.5 kmpl','1396 CC','88.7 bhp',5,0
+Pune,2012,76551,Petrol,Automatic,First,'15.0 kmpl','1396 CC','98.6 bhp',5,0
+Mumbai,2017,9700,Petrol,Manual,First,'16.2 kmpl','1199 CC','74 bhp',5,0
+Mumbai,2013,58000,Petrol,Manual,First,'17.01 kmpl','1591 CC','121.3 bhp',5,0
+Kolkata,2013,46000,Petrol,Manual,Second,'18.5 kmpl','1197 CC','82.9 bhp',5,0
+Bangalore,2014,72017,Diesel,Manual,First,'22.7 kmpl','1582 CC','126.24 bhp',5,0
+Kolkata,2015,54407,Diesel,Manual,First,'22.77 kmpl','1498 CC','98.59 bhp',5,0
+Hyderabad,2012,147000,Diesel,Manual,First,'12.99 kmpl','2494 CC','100 bhp',8,0
+Jaipur,2015,61000,Diesel,Automatic,First,'15.73 kmpl','1968 CC','174.33 bhp',5,0
+Mumbai,2016,18856,Petrol,Automatic,First,'14.3 kmpl','1598 CC','103.52 bhp',5,0
+Hyderabad,2011,76000,Diesel,Automatic,First,'11.2 kmpl','2993 CC','241 bhp',4,0
+Delhi,2017,17700,Diesel,Manual,First,'25.32 kmpl','1198 CC','77 bhp',5,'8.91 Lakh'
+Kochi,2014,82267,Diesel,Manual,First,'23.08 kmpl','1461 CC','63.1 bhp',5,0
+Kochi,2018,27041,Petrol,Automatic,First,'18.0 kmpl','1497 CC','117.3 bhp',5,0
+Bangalore,2014,63000,Petrol,Manual,Second,'24.07 kmpl','998 CC','67.1 bhp',5,'4.7 Lakh'
+Hyderabad,2008,61000,Petrol,Manual,First,'18.9 kmpl','1061 CC','67 bhp',5,0
+Kochi,2018,28466,Diesel,Manual,First,'18.49 kmpl','1493 CC','100 bhp',7,0
+Kolkata,2002,80000,Petrol,Manual,First,'0.0 kmpl','1086 CC','null bhp',5,0
+Delhi,2013,35373,Petrol,Manual,First,'21.1 kmpl','814 CC','55.2 bhp',5,0
+Jaipur,2014,51000,Diesel,Manual,First,'11.57 kmpl','2179 CC','138.1 bhp',7,0
+Mumbai,2013,49000,Diesel,Automatic,First,'17.68 kmpl','1968 CC','174.33 bhp',5,0
+Kolkata,2015,41000,Diesel,Manual,First,'22.71 kmpl','1461 CC','84.8 bhp',5,0
+Bangalore,2011,82831,Diesel,Manual,Second,'12.8 kmpl','2494 CC','102 bhp',7,0
+Mumbai,2010,52000,Petrol,Manual,First,'17.0 kmpl','1497 CC','118 bhp',5,0
+Hyderabad,2015,39736,Diesel,Manual,First,'25.2 kmpl','1248 CC','74 bhp',5,0
+Mumbai,2014,26500,Diesel,Manual,First,'19.01 kmpl','1461 CC','108.45 bhp',5,0
+Mumbai,2010,40000,Petrol,Manual,First,'22.0 kmpl','1197 CC','81.80 bhp',5,'7.67 Lakh'
+Coimbatore,2019,5752,Diesel,Manual,First,'16.3 kmpl','1956 CC','170 bhp',5,'27.56 Lakh'
+Chennai,2015,54000,Diesel,Manual,Second,'19.64 kmpl','1461 CC','108.5 bhp',5,'17 Lakh'
+Kolkata,2014,54841,Petrol,Manual,First,'22.5 kmpl','998 CC','67.04 bhp',5,'4.75 Lakh'
+Hyderabad,2014,34000,Diesel,Manual,First,'22.7 kmpl','1498 CC','89.84 bhp',5,0
+Ahmedabad,2012,16000,Petrol,Manual,First,'19.4 kmpl','1198 CC','86.8 bhp',5,0
+Pune,2009,134000,Diesel,Manual,First,'17.8 kmpl','1399 CC','null bhp',5,0
+Mumbai,2017,24000,Diesel,Automatic,First,'18.19 kmpl','1968 CC','174.5 bhp',5,'40.73 Lakh'
+Bangalore,2013,60000,Diesel,Manual,First,'14.0 kmpl','2498 CC','112 bhp',8,0
+Kochi,2015,58469,Petrol,Manual,First,'20.3 kmpl','998 CC','68.05 bhp',5,0
+Pune,2011,110000,Diesel,Manual,Second,'22.07 kmpl','1199 CC','73.9 bhp',5,0
+Kochi,2018,21127,Petrol,Automatic,First,'14.62 kmpl','1999 CC','149.92 bhp',5,'21.77 Lakh'
+Pune,2013,56000,Petrol,Manual,First,'12.4 kmpl','1998 CC','132 bhp',8,0
+Mumbai,2014,101000,Diesel,Manual,First,'14.02 kmpl','2179 CC','118.3 bhp',8,0
+Hyderabad,2018,13664,Petrol,Manual,First,'18.6 kmpl','1197 CC','81.83 bhp',5,0
+Mumbai,2014,65371,Diesel,Manual,First,'19.01 kmpl','1461 CC','108.45 bhp',5,0
+Delhi,2014,70428,Petrol,Manual,First,'17.0 kmpl','1591 CC','121.3 bhp',5,'11.47 Lakh'
+Bangalore,2012,69010,Diesel,Manual,First,'22.32 kmpl','1582 CC','126.3 bhp',5,0
+Kolkata,2017,68000,Petrol,Manual,First,'24.7 kmpl','796 CC','47.3 bhp',5,0
+Kolkata,2012,45000,Diesel,Manual,First,'21.64 kmpl','1461 CC','84.8 bhp',5,0
+Ahmedabad,2017,55945,Diesel,Manual,First,'19.3 kmpl','1248 CC','73.9 bhp',5,0
+Hyderabad,2013,70000,Diesel,Manual,First,'22.1 kmpl','1248 CC','76.9 bhp',5,0
+Mumbai,2014,12000,Petrol,Manual,First,'18.9 kmpl','998 CC','67.1 bhp',5,0
+Coimbatore,2019,10660,Petrol,Automatic,First,'14.28 kmpl','1798 CC','138.03 bhp',5,0
+Delhi,2012,52052,Petrol,Manual,First,'16.78 kmpl','1496 CC','88.73 bhp',5,0
+Chennai,2012,62940,Diesel,Automatic,Second,'14.84 kmpl','2143 CC','170 bhp',5,0
+Kolkata,2012,102000,Petrol,Manual,First,'17.92 kmpl','1086 CC','62.1 bhp',5,0
+Chennai,2012,60000,Diesel,Manual,First,'20.54 kmpl','1598 CC','103.6 bhp',5,0
+Pune,2013,66000,Petrol,Automatic,First,'17.97 kmpl','1498 CC','99.6 bhp',5,0
+Hyderabad,2012,41000,Petrol,Manual,First,'18.5 kmpl','1198 CC','86.8 bhp',5,'7.08 Lakh'
+Chennai,2005,135000,Petrol,Automatic,Third,'10.1 kmpl','2354 CC','152 bhp',5,0
+Pune,2012,72000,Petrol,Automatic,First,'16.8 kmpl','1497 CC','116.4 bhp',5,0
+Delhi,2014,55000,Diesel,Automatic,First,'11.78 kmpl','2143 CC','167.62 bhp',5,0
+Coimbatore,2016,37354,Petrol,Manual,First,'18.88 kmpl','999 CC','123.37 bhp',5,0
+Delhi,2016,21000,Diesel,Automatic,First,'17.9 kmpl','2143 CC','201.15 bhp',5,'77.92 Lakh'
+Bangalore,2015,66508,Diesel,Automatic,First,'18.12 kmpl','1995 CC','190 bhp',5,0
+Hyderabad,2013,88000,Diesel,Automatic,First,'11.3 kmpl','2987 CC','254.8 bhp',7,0
+Bangalore,2012,52000,Diesel,Manual,First,'12.55 kmpl','2982 CC','169 bhp',7,0
+Coimbatore,2017,41372,Diesel,Automatic,First,'17.9 kmpl','2143 CC','136 bhp',5,0
+Jaipur,2017,50000,Diesel,Automatic,Second,'21.72 kmpl','1498 CC','108.4 bhp',5,'14.86 Lakh'
+Kolkata,2012,72000,Diesel,Manual,First,'17.8 kmpl','1248 CC','null bhp',5,0
+Kolkata,2013,51637,Diesel,Manual,First,'25.8 kmpl','1498 CC','98.6 bhp',5,0
+Mumbai,2009,48233,Petrol,Manual,First,'14.53 kmpl','1798 CC','138.1 bhp',5,0
+Chennai,2016,58000,Petrol,Manual,Second,'18.9 kmpl','1197 CC','82 bhp',5,0
+Chennai,2015,44550,Petrol,Automatic,First,'19.0 kmpl','1199 CC','88.7 bhp',5,0
+Ahmedabad,2013,60001,Diesel,Manual,First,'22.32 kmpl','1582 CC','126.32 bhp',5,0
+Delhi,2014,150000,Diesel,Automatic,First,'12.55 kmpl','2982 CC','168.5 bhp',7,0
+Delhi,2015,33000,Diesel,Automatic,First,'11.5 kmpl','2987 CC','210 bhp',5,0
+Kolkata,2016,27000,Diesel,Manual,First,'0.0 kmpl',0,0,0,0
+Jaipur,2015,62766,Diesel,Manual,First,'20.14 kmpl','1498 CC','88.8 bhp',5,0
+Delhi,2010,73575,Petrol,Manual,First,'18.9 kmpl','998 CC','67.1 bhp',5,0
+Pune,2015,63000,Diesel,Manual,First,'25.8 kmpl','1498 CC','98.6 bhp',5,0
+Jaipur,2017,27270,Diesel,Automatic,First,'11.36 kmpl','2755 CC','171.5 bhp',7,'26.14 Lakh'
+Bangalore,2016,41737,Diesel,Automatic,First,'19.27 kmpl','2143 CC','170 bhp',5,0
+Coimbatore,2018,28358,Diesel,Automatic,First,'19.27 kmpl','2143 CC','167.62 bhp',5,0
+Pune,2012,75500,Diesel,Manual,Second,'21.1 kmpl','1248 CC','73.9 bhp',5,0
+Mumbai,2016,9900,Petrol,Manual,First,'18.7 kmpl','1199 CC','88.7 bhp',5,0
+Mumbai,2014,17000,Petrol,Manual,First,'19.4 kmpl','1198 CC','86.8 bhp',5,0
+Bangalore,2009,150000,Diesel,Automatic,Second,'18.48 kmpl',0,0,0,0
+Bangalore,2015,68178,Diesel,Manual,First,'21.38 kmpl','1396 CC','88.7 bhp',5,0
+Hyderabad,2009,52008,Petrol,Manual,First,'15.3 kmpl','1341 CC','83 bhp',5,0
+Kolkata,2013,76000,Diesel,Manual,First,'25.44 kmpl','936 CC','56.3 bhp',5,0
+Kochi,2015,48222,Diesel,Automatic,First,'17.68 kmpl','1968 CC','174.33 bhp',5,0
+Delhi,2016,100000,Petrol,Manual,First,'19.1 kmpl','1197 CC','82 bhp',5,0
+Delhi,2010,68000,Diesel,Manual,First,'19.3 kmpl','1248 CC','73.9 bhp',5,0
+Coimbatore,2015,76115,Diesel,Automatic,First,'13.5 kmpl','2477 CC','175.56 bhp',7,'32.41 Lakh'
+Kolkata,2015,36009,Petrol,Manual,First,'16.1 kmpl',0,0,0,0
+Hyderabad,2013,142000,Diesel,Automatic,First,'12.55 kmpl','2982 CC','168.5 bhp',7,0
+Hyderabad,2011,70000,Diesel,Automatic,First,'13.2 kmpl','2400 CC','215 bhp',5,0
+Coimbatore,2016,34224,Diesel,Manual,First,'19.67 kmpl','1582 CC','126.2 bhp',5,0
+Ahmedabad,2012,50000,Diesel,Automatic,Second,'14.21 kmpl','2143 CC','203 bhp',5,0
+Mumbai,2015,30000,Diesel,Manual,First,'24.2 kmpl','1498 CC','98.6 bhp',7,0
+Bangalore,2018,22000,Diesel,Manual,First,'20.37 kmpl','1461 CC','108.45 bhp',5,0
+Kolkata,2017,4000,Petrol,Manual,First,'21.1 kmpl','814 CC','55.2 bhp',5,0
+Delhi,2014,22230,Diesel,Manual,First,'11.1 kmpl','2400 CC','200 bhp',7,0
+Bangalore,2011,46000,Petrol,Automatic,First,'16.98 kmpl','998 CC','66.1 bhp',5,0
+Pune,2013,88700,Diesel,Automatic,First,'14.21 kmpl','2143 CC','203 bhp',5,0
+Hyderabad,2015,56000,Petrol,Manual,First,'18.9 kmpl','1197 CC','82 bhp',5,0
+Ahmedabad,2014,84004,Diesel,Automatic,First,'20.38 kmpl','1968 CC','143 bhp',5,0
+Bangalore,2015,16000,Diesel,Automatic,First,'14.69 kmpl','2993 CC','258 bhp',5,0
+Jaipur,2015,85009,Diesel,Manual,Second,'16.0 kmpl','2179 CC','140 bhp',7,0
+Mumbai,2014,86000,Petrol,Manual,First,'18.88 kmpl','999 CC','123.37 bhp',5,0
+Coimbatore,2015,93442,Diesel,Manual,First,'18.2 kmpl','1248 CC','73.8 bhp',7,0
+Chennai,2015,65000,Diesel,Manual,First,'15.4 kmpl','2179 CC','120 bhp',8,0
+Pune,2013,67000,Petrol,Manual,First,'18.5 kmpl','1197 CC','80 bhp',5,0
+Coimbatore,2014,31513,Diesel,Manual,First,'23.08 kmpl','1461 CC','63.12 bhp',5,0
+Coimbatore,2017,75724,Diesel,Manual,First,'26.59 kmpl','1248 CC','74 bhp',5,0
+Kolkata,2013,69000,Petrol,Manual,First,'21.1 kmpl','814 CC','55.2 bhp',5,0
+Mumbai,2010,65000,Petrol,Manual,First,'18.06 kmpl','1198 CC','75 bhp',5,0
+Mumbai,2017,27000,Diesel,Automatic,First,'18.19 kmpl','1968 CC','174.5 bhp',5,'40.73 Lakh'
+Chennai,2014,56049,Petrol,Manual,First,'18.6 kmpl','1197 CC','85.8 bhp',5,0
+Pune,2012,96987,Diesel,Manual,First,'20.5 kmpl','1598 CC','103.5 bhp',5,0
+Jaipur,2010,65000,Petrol,Manual,Third,'14.6 kmpl',0,0,0,0
+Bangalore,2010,69000,Petrol,Manual,First,'20.36 kmpl','1197 CC','78.9 bhp',5,0
+Bangalore,2015,33500,Diesel,Manual,First,'27.3 kmpl','1498 CC','98.6 bhp',5,0
+Chennai,2012,93000,Diesel,Manual,First,'12.99 kmpl','2494 CC','100 bhp',8,0
+Ahmedabad,2013,64000,Diesel,Automatic,First,'14.7 kmpl','1984 CC','181 bhp',5,0
+Kochi,2017,48045,Diesel,Manual,First,'28.09 kmpl','1248 CC','88.5 bhp',5,0
+Hyderabad,2009,94000,Diesel,Manual,First,'10.5 kmpl','2835 CC','107.2 bhp',6,0
+Chennai,2011,60000,Petrol,Manual,First,'19.7 kmpl','796 CC','46.3 bhp',5,0
+Pune,2010,115000,Petrol,Manual,Second,'16.1 kmpl',0,0,0,0
+Bangalore,2011,56000,Diesel,Automatic,First,'13.2 kmpl','1995 CC','170 bhp',5,0
+Pune,2012,98472,Diesel,Manual,First,'23.0 kmpl','1396 CC','90 bhp',5,0
+Hyderabad,2016,37800,Diesel,Manual,First,'19.67 kmpl','1582 CC','126.2 bhp',5,0
+Coimbatore,2016,63617,Petrol,Manual,First,'14.0 kmpl','796 CC','35 bhp',5,0
+Ahmedabad,2011,68000,Diesel,Manual,First,'18.1 kmpl','1493 CC','110 bhp',5,0
+Kochi,2017,11282,Petrol,Manual,First,'21.4 kmpl','1197 CC','83.1 bhp',5,0
+Chennai,2013,75000,Diesel,Manual,First,'25.8 kmpl','1498 CC','98.6 bhp',5,0
+Coimbatore,2014,78984,Diesel,Automatic,First,'16.09 kmpl','1995 CC','184 bhp',5,0
+Mumbai,2016,71000,Petrol,Automatic,First,'14.67 kmpl','1798 CC','177.46 bhp',5,'33.36 Lakh'
+Kochi,2014,43814,Petrol,Manual,First,'18.5 kmpl','1198 CC','86.8 bhp',5,'6.63 Lakh'
+Kolkata,2011,60000,Petrol,Manual,First,'20.36 kmpl','1197 CC','78.9 bhp',5,0
+Jaipur,2007,85000,Petrol,Manual,Second,'0.0 kmpl','1086 CC','null bhp',5,0
+Kochi,2015,65438,Diesel,Automatic,First,'17.68 kmpl','1968 CC','174.33 bhp',5,0
+Mumbai,2014,28215,Diesel,Manual,First,'19.87 kmpl','1461 CC','83.8 bhp',5,0
+Kochi,2019,15053,Diesel,Manual,First,'25.5 kmpl','1498 CC','98.6 bhp',5,'12.05 Lakh'
+Bangalore,2015,38000,Diesel,Manual,First,'24.5 kmpl','1498 CC','98.6 bhp',7,0
+Kochi,2012,64213,Petrol,Manual,First,'16.47 kmpl','1198 CC','73.9 bhp',5,0
+Delhi,2017,15000,Petrol,Automatic,First,'12.6 kmpl','1950 CC','191.34 bhp',5,'86.97 Lakh'
+Hyderabad,2011,82000,Diesel,Automatic,First,'13.5 kmpl','2987 CC','282 bhp',5,0
+Pune,2009,60000,Petrol,Manual,Second,'13.2 kmpl','1495 CC','94 bhp',5,0
+Chennai,2012,158000,Petrol,Manual,First,'17.5 kmpl','1298 CC','85.8 bhp',5,0
+Chennai,2007,73000,Petrol,Manual,First,'20.36 kmpl','1197 CC','78.9 bhp',5,0
+Coimbatore,2013,71601,Petrol,Manual,First,'18.5 kmpl','1198 CC','86.8 bhp',5,'6.38 Lakh'
+Hyderabad,2015,82328,Diesel,Manual,First,'21.1 kmpl','1248 CC','73.9 bhp',5,0
+Kolkata,2011,38000,Petrol,Manual,First,'18.5 kmpl','1198 CC','86.8 bhp',5,'5.89 Lakh'
+Pune,2014,85000,Petrol,Manual,First,'20.4 kmpl','1197 CC','81.80 bhp',5,0
+Jaipur,2012,116000,Diesel,Manual,First,'19.01 kmpl','1461 CC','108.45 bhp',5,0
+Mumbai,2008,65000,Petrol,Manual,Second,'17.92 kmpl','1086 CC','62.1 bhp',5,0
+Chennai,2018,5600,Petrol,Manual,First,'18.15 kmpl','1198 CC','82 bhp',5,'6.55 Lakh'
+Delhi,2012,68000,Diesel,Automatic,First,'11.4 kmpl','2953 CC','153.86 bhp',7,0
+Kolkata,2010,29300,Petrol,Manual,First,'15.8 kmpl','1172 CC','65 bhp',5,0
+Kochi,2018,23342,Diesel,Automatic,First,'12.83 kmpl','2179 CC','147.5 bhp',5,0
+Coimbatore,2017,41078,Diesel,Automatic,First,'22.69 kmpl','1995 CC','190 bhp',5,0
+Chennai,2014,38000,Diesel,Manual,First,'20.64 kmpl','1498 CC','108.49 bhp',5,0
+Hyderabad,2013,132000,Diesel,Manual,Second,'19.4 kmpl','1405 CC','70 bhp',5,0
+Pune,2015,35000,Petrol,Manual,First,'22.74 kmpl','796 CC','47.3 bhp',5,0
+Ahmedabad,2012,80000,Diesel,Manual,First,'20.0 kmpl','1399 CC','68 bhp',5,0
+Kolkata,2009,39408,Diesel,Manual,First,'17.8 kmpl','1399 CC','null bhp',5,0
+Kolkata,2015,27525,Petrol,Manual,First,'18.7 kmpl','1199 CC','88.7 bhp',5,0
+Jaipur,2018,27000,Diesel,Manual,First,'24.0 kmpl','1186 CC','73.97 bhp',5,'7.79 Lakh'
+Pune,2015,82799,Diesel,Manual,First,'21.14 kmpl','1498 CC','103.52 bhp',5,0
+Pune,2017,8000,Petrol,Manual,First,'20.89 kmpl','1197 CC','81.80 bhp',5,'7.87 Lakh'
+Mumbai,2014,46000,Diesel,Automatic,Second,'12.55 kmpl','2982 CC','168.5 bhp',7,0
+Pune,2012,98000,Diesel,Manual,First,'22.32 kmpl','1582 CC','126.3 bhp',5,0
+Coimbatore,2016,47924,Petrol,Manual,First,'21.1 kmpl','814 CC','55.2 bhp',5,0
+Chennai,2013,39000,Petrol,Automatic,First,'16.5 kmpl','1499 CC','110 bhp',5,0
+Coimbatore,2017,33601,Petrol,Manual,First,'18.9 kmpl','1197 CC','82 bhp',5,0
+Pune,2015,85000,Diesel,Automatic,First,'17.6 kmpl','1582 CC','126.2 bhp',5,'18.32 Lakh'
+Pune,2012,54000,Petrol,Manual,First,'14.53 kmpl','1798 CC','138.1 bhp',5,0
+Pune,2017,35000,Diesel,Manual,First,'24.3 kmpl','1248 CC','88.5 bhp',5,'10.65 Lakh'
+Hyderabad,2013,80020,Diesel,Manual,Second,'22.07 kmpl','1199 CC','74 bhp',5,0
+Chennai,2005,87500,Petrol,Manual,Second,'13.8 kmpl','1399 CC','68 bhp',5,0
+Mumbai,2015,59500,Petrol,Manual,First,'17.3 kmpl','1497 CC','117.3 bhp',7,0
+Hyderabad,2015,76000,Diesel,Manual,First,'24.2 kmpl','1498 CC','98.6 bhp',7,0
+Bangalore,2014,43000,Diesel,Automatic,Second,'15.15 kmpl','2967 CC','240 bhp',5,0
+Kochi,2015,41850,Petrol,Manual,First,'18.0 kmpl','1198 CC','86.7 bhp',5,0
+Hyderabad,2015,52300,Diesel,Automatic,First,'20.38 kmpl','1968 CC','143 bhp',5,0
+Pune,2013,31924,Diesel,Manual,First,'15.1 kmpl','2179 CC','140 bhp',7,0
+Coimbatore,2014,77914,Diesel,Manual,First,'16.2 kmpl','1493 CC','110 bhp',5,0
+Pune,2013,70000,Diesel,Manual,First,'22.7 kmpl','1498 CC','89.84 bhp',5,0
+Chennai,2010,94385,Petrol,Manual,Second,'19.7 kmpl','796 CC','46.3 bhp',5,0
+Jaipur,2012,57000,Diesel,Manual,Second,'23.08 kmpl','1461 CC','63.12 bhp',5,0
+Coimbatore,2016,27039,Petrol,Manual,First,'20.3 kmpl','998 CC','68.05 bhp',5,0
+Delhi,2015,11000,Petrol,Manual,First,'18.0 kmpl','1198 CC','86.7 bhp',5,0
+Jaipur,2016,57669,Diesel,Automatic,First,'21.5 kmpl','1498 CC','108.5 bhp',5,'16.64 Lakh'
+Pune,2011,124000,Diesel,Manual,First,'11.5 kmpl','2982 CC','171 bhp',7,0
+Mumbai,2017,29500,Diesel,Manual,First,'23.65 kmpl','1248 CC','88.5 bhp',5,0
+Jaipur,2000,75000,Petrol,Manual,First,'16.1 kmpl','796 CC','37 bhp',4,0
+Coimbatore,2015,54186,Petrol,Automatic,First,'23.1 kmpl','998 CC','67.04 bhp',5,0
+Mumbai,2015,36990,Petrol,Manual,First,'19.4 kmpl','1198 CC','86.8 bhp',5,0
+Hyderabad,2016,90000,Diesel,Manual,First,'19.3 kmpl','1248 CC','73.9 bhp',5,0
+Mumbai,2018,23000,Diesel,Automatic,First,'11.36 kmpl','2755 CC','171.5 bhp',8,'21 Lakh'
+Delhi,2016,23582,Petrol,Manual,Second,'19.34 kmpl','1462 CC','103 bhp',7,'9.54 Lakh'
+Jaipur,2009,87000,Petrol,Manual,Second,'19.0 kmpl','998 CC','66.1 bhp',5,0
+Kolkata,2019,1000,Diesel,Manual,First,'20.5 kmpl','1248 CC','91.72 bhp',5,'9.26 Lakh'
+Kochi,2015,58634,Diesel,Manual,First,'28.4 kmpl','1248 CC','74 bhp',5,0
+Kochi,2013,41377,Diesel,Manual,Second,'22.71 kmpl','1461 CC','84.8 bhp',5,0
+Jaipur,2015,43000,Petrol,Manual,First,'21.1 kmpl','814 CC','55.2 bhp',5,0
+Kochi,2015,77372,Petrol,Manual,First,'18.0 kmpl','1198 CC','86.7 bhp',5,0
+Chennai,2006,49000,Petrol,Manual,Second,'16.6 kmpl','1388 CC','68 bhp',5,0
+Delhi,2015,48000,Petrol,Automatic,First,'18.0 kmpl','1497 CC','117.3 bhp',5,0
+Hyderabad,2012,30000,Petrol,Manual,First,'19.4 kmpl','1198 CC','86.8 bhp',5,0
+Kolkata,2012,47000,Petrol,Manual,First,'18.9 kmpl','998 CC','67.1 bhp',5,0
+Jaipur,2016,76681,Diesel,Automatic,First,'22.7 kmpl','1582 CC','126.2 bhp',5,0
+Mumbai,2010,106565,Petrol,Automatic,First,'10.2 kmpl','2354 CC','180 bhp',5,0
+Coimbatore,2011,37492,Petrol,Automatic,First,'22.5 kmpl','998 CC','67 bhp',5,'6.33 Lakh'
+Coimbatore,2014,72843,Diesel,Manual,Second,'17.3 kmpl','1998 CC','163.7 bhp',5,0
+Kochi,2013,55653,Petrol,Manual,First,'17.0 kmpl','1197 CC','80 bhp',5,0
+Ahmedabad,2013,35000,Petrol,Manual,First,'25.4 kmpl','624 CC','37.48 bhp',4,0
+Delhi,2014,44000,Petrol,Manual,First,'15.8 kmpl','1499 CC','110 bhp',5,0
+Pune,2012,43200,Diesel,Manual,First,'19.1 kmpl','1405 CC','70 bhp',5,0
+Jaipur,2005,117000,Diesel,Manual,First,'18.7 kmpl','1896 CC','66 bhp',5,0
+Coimbatore,2016,63961,Diesel,Automatic,First,'13.5 kmpl','2477 CC','175.56 bhp',7,'34.1 Lakh'
+Mumbai,2015,20000,Diesel,Automatic,First,'20.7 kmpl','1496 CC','113.98 bhp',4,'35 Lakh'
+Pune,2016,34000,Petrol,Manual,First,'19.1 kmpl','1197 CC','81.86 bhp',5,0
+Kolkata,2015,35000,Petrol,Manual,First,'18.6 kmpl','1197 CC','81.83 bhp',5,0
+Mumbai,2013,43000,Petrol,Manual,First,'18.5 kmpl','1197 CC','82.85 bhp',5,0
+Hyderabad,2008,63193,Petrol,Manual,First,'20.36 kmpl','1197 CC','78.9 bhp',5,0
+Bangalore,2008,110000,Diesel,Manual,First,'12.8 kmpl','2494 CC','102 bhp',8,0
+Kochi,2011,44547,Petrol,Manual,First,'16.51 kmpl','1586 CC','103.2 bhp',5,0
+Ahmedabad,2011,65000,Petrol,Manual,First,'17.0 kmpl','1497 CC','118 bhp',5,0
+Mumbai,2012,79000,Petrol,Manual,Second,'18.5 kmpl','1197 CC','85.80 bhp',5,0
+Delhi,2017,33000,CNG,Manual,First,'32.26 km/kg','998 CC','58.2 bhp',4,'4.66 Lakh'
+Pune,2014,108000,Petrol,Automatic,First,'15.0 kmpl','1396 CC','98.6 bhp',5,0
+Kochi,2018,21302,Diesel,Manual,First,'13.68 kmpl','2393 CC','147.8 bhp',8,0
+Pune,2014,82000,Diesel,Manual,First,'25.2 kmpl','1248 CC','74 bhp',5,0
+Chennai,2014,173000,Diesel,Manual,Second,'12.99 kmpl','2494 CC','100.6 bhp',8,0
+Jaipur,2013,72000,Diesel,Manual,First,'17.21 kmpl','1493 CC','100 bhp',7,0
+Bangalore,2014,50299,Diesel,Manual,First,'15.1 kmpl','2179 CC','140 bhp',7,0
+Kolkata,2014,60000,Diesel,Automatic,First,'17.68 kmpl','1968 CC','174.33 bhp',5,0
+Kolkata,2011,112999,Diesel,Manual,First,'11.5 kmpl','2982 CC','171 bhp',7,0
+Pune,2010,183000,Diesel,Manual,First,'12.8 kmpl','2494 CC','102 bhp',7,0
+Coimbatore,2016,58840,Diesel,Automatic,First,'16.36 kmpl','2179 CC','187.7 bhp',5,0
+Kolkata,2014,58000,Petrol,Manual,First,'17.01 kmpl','1591 CC','121.3 bhp',5,0
+Jaipur,2011,78000,Diesel,Manual,First,'21.9 kmpl','1396 CC','90 bhp',5,0
+Ahmedabad,2018,34000,Diesel,Manual,First,'21.0 kmpl','1968 CC','141 bhp',5,'23.29 Lakh'
+Hyderabad,2012,54982,Petrol,Manual,First,'20.36 kmpl','1197 CC','78.9 bhp',5,0
+Jaipur,2008,65000,Petrol,Manual,Second,'19.7 kmpl','796 CC','46.3 bhp',5,0
+Kochi,2018,16292,Petrol,Manual,First,'25.17 kmpl','799 CC','53.3 bhp',5,'3.95 Lakh'
+Mumbai,2015,11206,Petrol,Manual,First,'18.9 kmpl','1197 CC','82 bhp',5,0
+Pune,2015,32100,Petrol,Automatic,First,'18.9 kmpl','1197 CC','82 bhp',5,0
+Delhi,2018,22296,Petrol,Manual,Second,'22.5 kmpl','998 CC','67.04 bhp',5,'4.59 Lakh'
+Kolkata,2015,36113,Diesel,Manual,First,'22.54 kmpl','1396 CC','88.73 bhp',5,0
+Delhi,2011,87000,Diesel,Automatic,Second,'13.1 kmpl','2400 CC','215 bhp',5,0
+Jaipur,2018,1001,Diesel,Manual,First,'19.87 kmpl','1461 CC','83.8 bhp',5,'13.08 Lakh'
+Hyderabad,2015,39822,Petrol,Automatic,First,'18.0 kmpl','1497 CC','117.3 bhp',5,0
+Hyderabad,2008,81814,Petrol,Manual,First,'16.1 kmpl','1298 CC','88.2 bhp',5,0
+Chennai,2016,62000,Diesel,Manual,First,'19.67 kmpl','1582 CC','126.2 bhp',5,0
+Pune,2017,71000,Diesel,Manual,Second,'26.59 kmpl','1248 CC','74 bhp',5,0
+Coimbatore,2019,10452,Petrol,Automatic,First,'19.0 kmpl','1199 CC','88.7 bhp',5,0
+Kolkata,2018,1520,Petrol,Manual,First,'23.84 kmpl','1199 CC','84 bhp',5,'5.71 Lakh'
+Chennai,2013,35315,Petrol,Manual,Second,'19.4 kmpl','1198 CC','86.8 bhp',5,0
+Hyderabad,2014,91722,Diesel,Manual,First,'25.2 kmpl','1248 CC','74 bhp',5,0
+Pune,2011,35976,Petrol,Manual,First,'17.0 kmpl','1197 CC','80 bhp',5,0
+Delhi,2016,22000,Petrol,Manual,First,'25.17 kmpl','799 CC','53.3 bhp',5,'4.02 Lakh'
+Hyderabad,2011,71000,Diesel,Automatic,First,'18.53 kmpl','1968 CC','187.74 bhp',5,'67.1 Lakh'
+Pune,2014,25000,Petrol,Manual,First,'18.9 kmpl','1197 CC','82 bhp',5,0
+Hyderabad,2010,54486,Petrol,Manual,First,'19.7 kmpl','796 CC','46.3 bhp',5,0
+Kolkata,2017,18366,Petrol,Automatic,First,'10.8 kmpl','1997 CC','246.74 bhp',5,'66.71 Lakh'
+Kolkata,2010,16000,Petrol,Manual,First,'15.0 kmpl','1368 CC','90 bhp',5,0
+Coimbatore,2017,31176,Petrol,Automatic,First,'21.9 kmpl','624 CC','37.48 bhp',4,0
+Jaipur,2012,88375,Diesel,Automatic,Second,'17.05 kmpl','1995 CC','184 bhp',5,0
+Jaipur,2017,34500,Petrol,Automatic,First,'20.51 kmpl','998 CC','67 bhp',5,0
+Hyderabad,2012,80000,Diesel,Manual,First,'12.55 kmpl','2982 CC','168.5 bhp',7,0
+Delhi,2013,46000,Diesel,Manual,First,'22.07 kmpl','1199 CC','73.9 bhp',5,0
+Mumbai,2009,70000,Petrol,Automatic,Third,'13.9 kmpl','1799 CC','130.2 bhp',5,0
+Hyderabad,2009,51000,Diesel,Automatic,First,'14.49 kmpl','2993 CC','258 bhp',5,0
+Delhi,2017,25000,Diesel,Automatic,First,'16.0 kmpl','2179 CC','140 bhp',7,0
+Coimbatore,2017,25132,Petrol,Automatic,First,'14.5 kmpl','1797 CC','147.4 bhp',5,0
+Delhi,2011,70000,Petrol,Manual,First,'14.53 kmpl','1798 CC','138.1 bhp',5,0
+Kochi,2015,48913,Petrol,Manual,First,'24.7 kmpl','796 CC','47.3 bhp',5,0
+Hyderabad,2014,63000,Diesel,Manual,First,'25.6 kmpl','1498 CC','98.6 bhp',5,'13.33 Lakh'
+Jaipur,2011,90000,Petrol,Manual,First,'19.7 kmpl','796 CC','46.3 bhp',5,0
+Chennai,2013,55000,Petrol,Manual,First,'19.4 kmpl','1198 CC','86.8 bhp',5,0
+Mumbai,2013,51000,Petrol,Manual,First,'16.47 kmpl','1198 CC','73.9 bhp',5,0
+Pune,2012,35844,Petrol,Manual,Second,'18.5 kmpl','1197 CC','85.80 bhp',5,0
+Kolkata,2012,14850,Petrol,Automatic,First,'10.0 kmpl','3696 CC','328.5 bhp',2,0
+Hyderabad,2014,98000,Diesel,Automatic,First,'17.68 kmpl','1968 CC','174.33 bhp',5,0
+Mumbai,2015,17000,Petrol,Manual,First,'18.6 kmpl','1197 CC','81.83 bhp',5,0
+Mumbai,2013,42670,Diesel,Manual,First,'22.32 kmpl','1582 CC','126.3 bhp',5,0
+Kochi,2014,33128,Diesel,Automatic,First,'17.54 kmpl','2993 CC','313 bhp',4,0
+Chennai,2018,7300,Petrol,Manual,Second,'24.07 kmpl','998 CC','67.1 bhp',5,'4.5 Lakh'
+Kolkata,2016,53416,Diesel,Manual,First,'22.54 kmpl','1396 CC','88.73 bhp',5,0
+Chennai,2011,47000,Petrol,Manual,Second,'17.6 kmpl','1496 CC','88.73 bhp',5,0
+Ahmedabad,2008,72002,Diesel,Manual,Second,'13.6 kmpl','1991 CC','142 bhp',5,0
+Pune,2016,47000,Diesel,Automatic,First,'21.72 kmpl','1498 CC','108.4 bhp',5,'15.11 Lakh'
+Coimbatore,2016,47634,Diesel,Automatic,First,'17.68 kmpl','1968 CC','174.33 bhp',5,0
+Ahmedabad,2015,62000,Petrol,Manual,First,'16.47 kmpl','1198 CC','74 bhp',5,0
+Chennai,2013,65000,Diesel,Manual,Second,'19.68 kmpl','1399 CC','67 bhp',5,0
+Hyderabad,2014,92448,Diesel,Manual,First,'17.15 kmpl','1995 CC','147.9 bhp',5,0
+Chennai,2014,68000,Diesel,Manual,First,'22.7 kmpl','1498 CC','89.84 bhp',5,0
+Mumbai,2011,87000,Diesel,Automatic,First,'0.0 kmpl','2179 CC','115 bhp',5,0
+Pune,2016,108000,Diesel,Manual,First,'25.8 kmpl','1498 CC','98.6 bhp',5,0
+Chennai,2015,60000,Diesel,Automatic,First,'23.3 kmpl','1984 CC','150 bhp',5,0
+Chennai,2011,82000,Petrol,Manual,First,'20.36 kmpl','1197 CC','78.9 bhp',5,0
+Jaipur,2016,26189,Petrol,Manual,First,'18.16 kmpl','1196 CC','86.8 bhp',5,0
+Jaipur,2016,26300,Diesel,Manual,First,'28.09 kmpl','1248 CC','88.5 bhp',5,0
+Mumbai,2016,35000,Diesel,Automatic,First,'12.55 kmpl','2982 CC','168.7 bhp',7,0
+Pune,2010,67000,Diesel,Manual,First,'18.0 kmpl','1248 CC','75 bhp',5,0
+Jaipur,2012,42285,Petrol,Manual,First,'22.0 kmpl','814 CC','55 bhp',5,0
+Kolkata,2017,7000,Petrol,Manual,First,'18.15 kmpl','1198 CC','82 bhp',6,0
+Pune,2016,42000,Petrol,Manual,First,'18.6 kmpl','1197 CC','81.83 bhp',5,0
+Kochi,2015,56967,Petrol,Manual,First,'17.92 kmpl','1086 CC','62.1 bhp',5,0
+Coimbatore,2019,29566,Diesel,Automatic,First,'17.9 kmpl','2143 CC','170 bhp',5,'49.12 Lakh'
+Kochi,2015,41836,Petrol,Manual,First,'20.51 kmpl','998 CC','67.04 bhp',5,0
+Coimbatore,2018,19764,Diesel,Manual,First,'16.5 kmpl','1493 CC','70 bhp',7,'10.51 Lakh'
+Kolkata,2009,134000,Diesel,Manual,First,'18.0 kmpl','1248 CC','75 bhp',5,0
+Delhi,2018,8321,Petrol,Manual,First,'18.6 kmpl','1197 CC','81.86 bhp',5,0
+Pune,2015,174000,Diesel,Manual,First,'19.1 kmpl','1405 CC','70 bhp',5,0
+Pune,2002,119613,Diesel,Manual,Second,'13.1 kmpl','2446 CC','75 bhp',10,0
+Chennai,2017,21000,Petrol,Manual,First,'20.85 kmpl','1197 CC','83.14 bhp',5,0
+Mumbai,2015,55600,Diesel,Manual,First,'20.34 kmpl','1498 CC','103.2 bhp',5,0
+Kolkata,2014,61000,Diesel,Manual,First,'19.5 kmpl','1248 CC','75 bhp',5,'8.65 Lakh'
+Pune,2013,38428,Petrol,Manual,Second,'19.4 kmpl','1198 CC','86.8 bhp',5,0
+Chennai,2009,95000,Diesel,Automatic,Second,'18.48 kmpl',0,0,0,0
+Mumbai,2012,18000,Petrol,Manual,First,'17.0 kmpl','1197 CC','80 bhp',5,0
+Chennai,2019,7000,Diesel,Automatic,First,'12.62 kmpl','2198 CC','158 bhp',7,0
+Kochi,2016,24779,Petrol,Manual,First,'18.6 kmpl','1197 CC','81.83 bhp',5,0
+Kochi,2019,17431,Petrol,Manual,First,'21.5 kmpl','1197 CC','81.80 bhp',5,'5.79 Lakh'
+Chennai,2008,88000,Diesel,Manual,First,'12.05 kmpl','2179 CC','120 bhp',8,0
+Kochi,2015,29347,Petrol,Manual,First,'22.5 kmpl','998 CC','67.04 bhp',5,'5.04 Lakh'
+Ahmedabad,2015,24000,Diesel,Manual,First,'26.21 kmpl','1248 CC','88.5 bhp',5,0
+Coimbatore,2016,60249,Diesel,Automatic,First,'18.25 kmpl','1968 CC','187.74 bhp',5,'53.14 Lakh'
+Mumbai,2017,15000,Petrol,Manual,First,'20.73 kmpl','1373 CC','91.1 bhp',5,0
+Kolkata,2018,3013,Diesel,Manual,First,'24.4 kmpl','1498 CC','98.63 bhp',5,'9.12 Lakh'
+Kolkata,2013,60000,Diesel,Manual,First,'23.59 kmpl','1364 CC','null bhp',5,0
+Hyderabad,2013,83503,Diesel,Manual,First,'15.1 kmpl','2179 CC','140 bhp',7,0
+Mumbai,2011,69000,Diesel,Manual,Second,'18.3 kmpl','1991 CC','147.9 bhp',5,0
+Kolkata,2018,54000,Petrol,Manual,First,'21.1 kmpl','814 CC','55.2 bhp',5,0
+Bangalore,2013,49000,Diesel,Manual,First,'23.2 kmpl','1248 CC','73.94 bhp',5,0
+Hyderabad,2013,86000,Diesel,Manual,First,'23.59 kmpl','1364 CC','null bhp',5,0
+Chennai,2010,36000,Petrol,Manual,Second,'22.5 kmpl','998 CC','67.04 bhp',5,'5.51 Lakh'
+Coimbatore,2018,12899,Petrol,Manual,First,'15.85 kmpl','1499 CC','110.4 bhp',5,0
+Bangalore,2016,56839,Diesel,Automatic,First,'19.6 kmpl','1461 CC','108.45 bhp',5,'15.05 Lakh'
+Pune,2012,46972,Petrol,Manual,First,'22.0 kmpl','1197 CC','81.80 bhp',5,0
+Coimbatore,2015,96012,Diesel,Manual,First,'14.95 kmpl','2489 CC','93.7 bhp',7,'11.91 Lakh'
+Kochi,2012,59311,Petrol,Manual,First,'18.3 kmpl',0,0,0,0
+Ahmedabad,2010,90000,Petrol,Automatic,Third,'10.1 kmpl','2354 CC','152 bhp',5,0
+Kochi,2016,32835,Diesel,Manual,First,'20.5 kmpl','1248 CC','91.7 bhp',5,'8.6 Lakh'
+Kochi,2017,60739,Diesel,Automatic,First,'17.01 kmpl','1582 CC','126.2 bhp',5,0
+Mumbai,2017,19476,Petrol,Automatic,First,'19.0 kmpl','1368 CC','160 bhp',4,0
+Mumbai,2017,15000,Petrol,Manual,First,'18.88 kmpl','999 CC','123.24 bhp',5,0
+Hyderabad,2011,53000,Diesel,Automatic,First,'14.74 kmpl','2993 CC','270.9 bhp',5,0
+Chennai,2016,20000,Petrol,Manual,Second,'18.9 kmpl','1197 CC','82 bhp',5,0
+Hyderabad,2008,67000,Diesel,Automatic,First,'8.7 kmpl','2987 CC','224.34 bhp',5,0
+Bangalore,2009,140000,Diesel,Manual,Second,'12.8 kmpl','2494 CC','102 bhp',7,0
+Delhi,2011,25000,Petrol,Automatic,Second,'11.7 kmpl','2354 CC','177.6 bhp',5,0
+Jaipur,2007,69000,Petrol,Manual,Second,'18.9 kmpl','998 CC','67.1 bhp',5,0
+Hyderabad,2013,65461,Diesel,Manual,First,'21.9 kmpl','1396 CC','90 bhp',5,0
+Kolkata,2014,33000,Petrol,Manual,First,'18.6 kmpl','1197 CC','85.8 bhp',5,0
+Ahmedabad,2011,52000,Petrol,Manual,First,'17.0 kmpl','1497 CC','118 bhp',5,0
+Kochi,2015,29215,Petrol,Manual,First,'16.47 kmpl','1198 CC','74 bhp',5,0
+Jaipur,2010,40000,LPG,Manual,Second,'13.2 km/kg','1495 CC','93.7 bhp',5,0
+Jaipur,2017,290000,Diesel,Manual,First,'12.4 kmpl','2499 CC','134 bhp',5,0
+Coimbatore,2017,14519,Petrol,Manual,First,'15.4 kmpl','1497 CC','117.3 bhp',7,'15.55 Lakh'
+Jaipur,2012,350000,Diesel,Manual,First,'23.4 kmpl','1248 CC','74 bhp',5,0
+Kolkata,2014,39000,Diesel,Manual,First,'24.2 kmpl','1498 CC','98.6 bhp',7,0
+Coimbatore,2016,40130,Petrol,Manual,First,'16.02 kmpl','1373 CC','93.7 bhp',7,0
+Bangalore,2015,58000,Diesel,Automatic,First,'13.5 kmpl','2477 CC','175.56 bhp',7,'34.1 Lakh'
+Bangalore,2013,43000,Diesel,Automatic,First,'15.0 kmpl','2147 CC','107.3 bhp',5,0
+Mumbai,2017,15500,CNG,Manual,First,'15.1 km/kg','1196 CC','73 bhp',5,0
+Mumbai,2011,34948,Petrol,Manual,First,'16.09 kmpl','1598 CC','103.5 bhp',5,'10.36 Lakh'
+Bangalore,2006,98245,Petrol,Manual,Third,'11.3 kmpl','1298 CC','83.1 bhp',8,0
+Delhi,2014,36390,Diesel,Manual,First,'26.0 kmpl','1498 CC','98.6 bhp',5,0
+Mumbai,2010,122000,Petrol,Manual,First,'17.5 kmpl','1197 CC','85.8 bhp',5,0
+Ahmedabad,2013,79003,Diesel,Manual,First,'20.54 kmpl','1598 CC','103.6 bhp',5,0
+Kochi,2013,78830,Diesel,Automatic,Second,'17.0 kmpl','1896 CC','105 bhp',5,0
+Mumbai,2011,53000,Petrol,Manual,First,'19.4 kmpl','1198 CC','86.8 bhp',5,0
+Chennai,2009,53000,Petrol,Manual,Second,'19.0 kmpl','998 CC','66.1 bhp',5,0
+Jaipur,2011,82000,Diesel,Manual,Second,'21.5 kmpl','1248 CC','88.8 bhp',5,0
+Mumbai,2013,95000,Diesel,Manual,First,'22.54 kmpl','1582 CC','126.2 bhp',5,'20.69 Lakh'
+Kochi,2017,18090,Petrol,Manual,First,'24.07 kmpl','998 CC','67.1 bhp',5,'4.25 Lakh'
+Pune,2004,70332,Petrol,Manual,Third,'19.7 kmpl','796 CC','46.3 bhp',5,0
+Jaipur,2018,46000,Petrol,Manual,First,'22.7 kmpl','799 CC','53.64 bhp',5,'3.99 Lakh'
+Kochi,2015,63402,Diesel,Manual,First,'22.7 kmpl','1498 CC','89.84 bhp',5,0
+Kolkata,2017,13000,Diesel,Manual,First,'26.0 kmpl','1498 CC','98.6 bhp',5,0
+Pune,2010,65505,Diesel,Automatic,First,'14.94 kmpl','2143 CC','204 bhp',5,0
+Pune,2006,154000,Petrol,Manual,Third,'13.2 kmpl','2359 CC','165 bhp',5,0
+Bangalore,2008,85142,Petrol,Manual,Second,'18.0 kmpl','995 CC','62 bhp',5,0
+Jaipur,2016,45000,Petrol,Manual,First,'16.2 kmpl','1199 CC','74 bhp',5,0
+Delhi,2011,48000,Petrol,Manual,First,'20.36 kmpl','1197 CC','78.9 bhp',5,0
+Delhi,2012,77800,Petrol,Manual,First,'18.3 kmpl','1197 CC','null bhp',5,0
+Kochi,2016,39549,Petrol,Manual,First,'24.07 kmpl','998 CC','67.1 bhp',5,'4.09 Lakh'
+Kochi,2011,100922,Petrol,Automatic,Second,'10.1 kmpl','2354 CC','152 bhp',5,0
+Chennai,2013,55000,Petrol,Automatic,First,'17.01 kmpl','1591 CC','121.4 bhp',5,0
+Hyderabad,2011,45000,Diesel,Automatic,Second,'14.94 kmpl','2143 CC','204 bhp',5,0
+Jaipur,2017,145000,Petrol,Automatic,First,'18.1 kmpl','1199 CC','88.7 bhp',5,0
+Kolkata,2011,45000,Diesel,Manual,First,'14.0 kmpl','2498 CC','112 bhp',8,0
+Bangalore,2012,44000,Petrol,Automatic,First,'12.37 kmpl','2359 CC','198.25 bhp',5,0
+Bangalore,2015,48000,Diesel,Manual,First,'21.38 kmpl','1396 CC','88.7 bhp',5,0
+Kochi,2011,64139,Diesel,Manual,First,'12.8 kmpl','2494 CC','102 bhp',7,0
+Kochi,2019,11574,Petrol,Manual,First,'0.0 kmpl','1199 CC','88.7 bhp',0,0
+Kolkata,2013,14311,CNG,Manual,First,'30.46 km/kg','796 CC','47.3 bhp',5,0
+Bangalore,2016,20000,Petrol,Manual,First,'18.6 kmpl','1197 CC','81.83 bhp',5,0
+Coimbatore,2018,18338,Petrol,Automatic,First,'19.0 kmpl','2996 CC','362.07 bhp',2,'1.06 Cr'
+Kochi,2019,17964,Diesel,Manual,First,'22.54 kmpl','1396 CC','88.73 bhp',5,0
+Hyderabad,2012,55500,Diesel,Automatic,First,'11.5 kmpl','2982 CC','169 bhp',7,0
+Chennai,2008,130000,Diesel,Manual,Second,'12.05 kmpl','2179 CC','120 bhp',8,0
+Hyderabad,2016,50000,Diesel,Automatic,First,'11.57 kmpl','2987 CC','254.79 bhp',5,'92.01 Lakh'
+Mumbai,2015,49830,Petrol,Manual,First,'16.2 kmpl','1199 CC','74 bhp',5,0
+Kolkata,2009,49000,Diesel,Automatic,First,'18.48 kmpl','1995 CC','177 bhp',5,0
+Kolkata,2013,53967,Diesel,Manual,First,'22.7 kmpl','1498 CC','89.84 bhp',5,0
+Mumbai,2011,54000,Petrol,Manual,First,'15.0 kmpl','1586 CC','104.68 bhp',5,0
+Hyderabad,2009,75000,Petrol,Automatic,First,'15.0 kmpl','1396 CC','100 bhp',5,0
+Pune,2016,100000,Diesel,Manual,First,'24.4 kmpl','1120 CC','71 bhp',5,0
+Chennai,2015,142000,Diesel,Manual,First,'19.98 kmpl','1461 CC','108.5 bhp',8,0
+Jaipur,2012,83388,Diesel,Manual,Second,'19.01 kmpl','1461 CC','108.45 bhp',5,0
+Delhi,2012,62000,Petrol,Manual,First,'17.5 kmpl','1298 CC','85.8 bhp',5,0
+Kolkata,2016,61000,Diesel,Manual,First,'26.0 kmpl','1498 CC','98.6 bhp',5,0
+Bangalore,2011,45000,Diesel,Automatic,First,'14.94 kmpl','2967 CC','241.4 bhp',5,0
+Bangalore,2013,33000,Diesel,Manual,First,'10.0 kmpl','1796 CC','157.7 bhp',5,0
+Pune,2014,113565,Diesel,Manual,First,'12.99 kmpl','2494 CC','100.6 bhp',8,0
+Hyderabad,2008,131000,Diesel,Manual,First,'15.0 kmpl','1896 CC','105 bhp',5,0
+Delhi,2015,72253,Diesel,Manual,First,'15.96 kmpl','2523 CC','62.1 bhp',7,'10.94 Lakh'
+Coimbatore,2016,46346,Petrol,Manual,First,'20.85 kmpl','1197 CC','83.14 bhp',5,0
+Hyderabad,2016,37000,Petrol,Manual,First,'17.0 kmpl','1497 CC','118 bhp',5,0
+Coimbatore,2019,56371,Diesel,Manual,First,'24.0 kmpl','1186 CC','73.97 bhp',5,'8.28 Lakh'
+Pune,2016,98500,Diesel,Manual,First,'25.0 kmpl','1396 CC','69.01 bhp',5,0
+Ahmedabad,2015,71588,Diesel,Manual,First,'27.39 kmpl','1248 CC','74 bhp',5,0
+Ahmedabad,2014,68000,Petrol,Manual,First,'24.7 kmpl','796 CC','47.3 bhp',5,0
+Mumbai,2003,66800,Petrol,Automatic,Second,'11.2 kmpl','2497 CC','203 bhp',5,0
+Chennai,2016,90000,Diesel,Manual,First,'19.3 kmpl','1248 CC','73.9 bhp',5,0
+Jaipur,2013,54000,Diesel,Manual,First,'20.45 kmpl','1461 CC','83.8 bhp',5,0
+Mumbai,2011,87248,Petrol,Automatic,Second,'14.74 kmpl','1991 CC','184 bhp',5,0
+Pune,2017,9052,Petrol,Manual,First,'23.1 kmpl','998 CC','67.04 bhp',5,0
+Delhi,2014,67320,Petrol,Manual,First,'17.92 kmpl','1086 CC','62.1 bhp',5,0
+Kochi,2018,28635,Petrol,Manual,First,'16.2 kmpl','1199 CC','74 bhp',5,0
+Kochi,2016,78904,Diesel,Manual,First,'15.96 kmpl','2523 CC','62.1 bhp',7,'10.94 Lakh'
+Kochi,2018,16409,Diesel,Automatic,First,'14.69 kmpl','2993 CC','258 bhp',5,0
+Delhi,2012,61180,Petrol,Manual,Second,'16.8 kmpl','1497 CC','116.3 bhp',5,0
+Delhi,2014,59577,Petrol,Manual,Second,'18.5 kmpl','1197 CC','82.85 bhp',5,0
+Mumbai,2016,24104,Diesel,Manual,First,'12.99 kmpl','2494 CC','100 bhp',8,0
+Mumbai,2008,69000,Diesel,Automatic,Third,'16.73 kmpl','2495 CC','218 bhp',5,0
+Bangalore,2015,35000,Petrol,Automatic,First,'17.21 kmpl','1197 CC','103.6 bhp',5,0
+Ahmedabad,2014,75000,Diesel,Automatic,First,'13.5 kmpl','2477 CC','175.56 bhp',7,'32.41 Lakh'
+Jaipur,2014,98000,Petrol,Manual,First,'16.02 kmpl','1373 CC','93.7 bhp',7,0
+Chennai,2014,51843,Diesel,Automatic,Third,'17.68 kmpl','1968 CC','174.33 bhp',5,0
+Jaipur,2013,80000,Diesel,Manual,Second,'23.4 kmpl','1248 CC','74 bhp',5,0
+Pune,2009,110000,Diesel,Manual,Third,'11.5 kmpl','2982 CC','171 bhp',7,0
+Kochi,2015,75383,Petrol,Manual,First,'19.81 kmpl','1086 CC','68.05 bhp',5,0
+Kochi,2017,31861,Diesel,Automatic,First,'18.49 kmpl','1493 CC','100 bhp',7,0
+Mumbai,2011,57900,Diesel,Manual,First,'15.8 kmpl','2148 CC','170 bhp',5,0
+Delhi,2014,48000,Diesel,Manual,First,'19.3 kmpl','1248 CC','73.9 bhp',5,0
+Kochi,2015,33544,Petrol,Manual,First,'18.5 kmpl','1197 CC','82.85 bhp',5,0
+Chennai,2015,65000,Diesel,Manual,First,'25.2 kmpl','1248 CC','74 bhp',5,0
+Coimbatore,2017,103189,Diesel,Manual,First,'13.68 kmpl','2393 CC','147.8 bhp',8,'24.01 Lakh'
+Kochi,2017,35007,Petrol,Manual,First,'16.78 kmpl','1496 CC','88.73 bhp',5,0
+Pune,2010,98000,Diesel,Manual,First,'21.43 kmpl','1364 CC','87.2 bhp',5,0
+Hyderabad,2017,25678,Diesel,Manual,First,'24.0 kmpl','1186 CC','73.97 bhp',5,'7.9 Lakh'
+Coimbatore,2015,65636,Diesel,Manual,First,'21.79 kmpl','1248 CC','88.73 bhp',5,0
+Kochi,2015,21730,Diesel,Automatic,First,'17.68 kmpl','1968 CC','174.33 bhp',5,0
+Chennai,2013,46112,Petrol,Manual,First,'18.0 kmpl','1198 CC','86.7 bhp',5,0
+Kolkata,2015,20000,Petrol,Manual,First,'18.6 kmpl','1197 CC','81.83 bhp',5,0
+Hyderabad,2013,67000,Diesel,Manual,First,'15.1 kmpl','2179 CC','140 bhp',7,0
+Ahmedabad,2016,29000,Diesel,Automatic,First,'13.0 kmpl','2143 CC','204 bhp',5,0
+Pune,2014,86000,Diesel,Manual,First,'24.8 kmpl','1396 CC','88.7 bhp',5,0
+Hyderabad,2013,34000,Petrol,Manual,First,'18.0 kmpl','1198 CC','86.7 bhp',5,0
+Bangalore,2014,36000,Diesel,Automatic,First,'17.11 kmpl','1968 CC','174.33 bhp',5,0
+Mumbai,2013,49000,Petrol,Manual,First,'20.36 kmpl','1197 CC','78.9 bhp',5,0
+Mumbai,2017,7000,Petrol,Manual,First,'20.3 kmpl','1199 CC','84 bhp',5,0
+Kolkata,2014,60188,Diesel,Manual,First,'24.4 kmpl','1120 CC','71 bhp',5,0
+Ahmedabad,2012,79000,Diesel,Manual,First,'20.0 kmpl','1399 CC','68 bhp',5,0
+Chennai,2012,115439,Diesel,Manual,Second,'12.99 kmpl','2494 CC','100 bhp',7,0
+Pune,2011,104500,Diesel,Manual,Second,'23.0 kmpl','1396 CC','90 bhp',5,0
+Delhi,2013,35000,Diesel,Automatic,First,'13.0 kmpl','2143 CC','204 bhp',5,0
+Coimbatore,2016,26186,Diesel,Manual,First,'19.67 kmpl','1582 CC','126.2 bhp',5,0
+Pune,2012,58061,Petrol,Manual,First,'18.0 kmpl','995 CC','62 bhp',5,0
+Ahmedabad,2011,62000,Diesel,Manual,First,'23.0 kmpl','1396 CC','90 bhp',5,0
+Mumbai,2013,118000,Diesel,Manual,Second,'23.4 kmpl','1248 CC','74 bhp',5,0
+Chennai,2009,65000,Petrol,Manual,First,'20.36 kmpl','1197 CC','78.9 bhp',5,0
+Hyderabad,2008,44379,Petrol,Manual,First,'17.92 kmpl','1086 CC','62.1 bhp',5,0
+Kochi,2017,61041,Diesel,Manual,First,'22.7 kmpl','1498 CC','89.84 bhp',5,0
+Bangalore,2011,73000,Diesel,Manual,Second,'17.8 kmpl','1399 CC','67 bhp',5,0
+Pune,2016,57297,Diesel,Automatic,First,'17.01 kmpl','1582 CC','126.2 bhp',5,0
+Hyderabad,2015,28700,Petrol,Manual,Second,'15.29 kmpl','1591 CC','121.3 bhp',5,0
+Hyderabad,2013,85264,Petrol,Manual,First,'17.0 kmpl','1497 CC','118 bhp',5,0
+Hyderabad,2017,20000,Petrol,Automatic,First,'20.89 kmpl','1197 CC','81.80 bhp',5,'7.21 Lakh'
+Hyderabad,2017,11934,Petrol,Automatic,First,'18.0 kmpl','1497 CC','117.3 bhp',5,'16.94 Lakh'
+Pune,2010,83000,Petrol,Manual,First,'17.0 kmpl','1497 CC','118 bhp',5,0
+Hyderabad,2013,23000,Petrol,Manual,First,'15.3 kmpl','1596 CC','99.6 bhp',5,0
+Mumbai,2017,14927,Petrol,Manual,First,'18.6 kmpl','1197 CC','81.83 bhp',5,0
+Hyderabad,2007,158000,Petrol,Manual,Second,'13.4 kmpl','1794 CC','125 bhp',5,0
+Jaipur,2011,111000,Diesel,Manual,Third,'23.08 kmpl','1461 CC','63.1 bhp',5,0
+Hyderabad,2011,63528,Petrol,Manual,First,'19.7 kmpl','796 CC','46.3 bhp',5,0
+Jaipur,2015,92000,Diesel,Manual,First,'26.21 kmpl','1248 CC','88.5 bhp',5,0
+Delhi,2017,41200,Diesel,Manual,First,'28.09 kmpl','1248 CC','88.5 bhp',5,0
+Coimbatore,2016,39052,Diesel,Manual,First,'15.1 kmpl','2179 CC','140 bhp',7,0
+Ahmedabad,2014,55100,Diesel,Manual,First,'20.45 kmpl','1461 CC','83.8 bhp',5,0
+Ahmedabad,2011,76958,Petrol,Manual,First,'17.0 kmpl','1197 CC','80 bhp',5,0
+Kochi,2015,70419,Diesel,Manual,First,'23.08 kmpl','1461 CC','63.12 bhp',5,0
+Mumbai,2017,21000,Petrol,Automatic,First,'20.51 kmpl','998 CC','67 bhp',5,0
+Delhi,2009,64000,Petrol,Automatic,First,'7.94 kmpl','4395 CC','450 bhp',4,0
+Delhi,2011,63698,Petrol,Manual,Second,'16.8 kmpl','1497 CC','116.3 bhp',5,0
+Coimbatore,2016,62715,Diesel,Manual,First,'23.03 kmpl','1396 CC','69 bhp',5,0
+Coimbatore,2013,37922,Petrol,Manual,Second,'19.4 kmpl','1198 CC','86.8 bhp',5,0
+Ahmedabad,2016,52000,Diesel,Manual,First,'27.3 kmpl','1498 CC','98.6 bhp',5,0
+Chennai,2013,47000,Diesel,Automatic,First,'20.0 kmpl','2143 CC','107.3 bhp',5,0
+Mumbai,2009,64000,Petrol,Manual,Second,'14.53 kmpl','1798 CC','138.1 bhp',5,0
+Hyderabad,2007,109000,Petrol,Manual,Second,'13.5 kmpl','1799 CC','130 bhp',5,0
+Mumbai,2015,19000,Diesel,Manual,First,'19.67 kmpl','1582 CC','126.2 bhp',5,0
+Ahmedabad,2009,99000,Petrol,Automatic,Second,'9.74 kmpl','1984 CC','208 bhp',5,0
+Hyderabad,2005,50000,Petrol,Manual,Second,'14.2 kmpl','1389 CC','88 bhp',5,0
+Pune,2013,105000,Diesel,Automatic,Second,'12.55 kmpl','2982 CC','168.5 bhp',7,0
+Jaipur,2016,24000,Petrol,Manual,First,'15.29 kmpl','1591 CC','121.3 bhp',5,0
+Coimbatore,2017,23389,Diesel,Manual,First,'21.66 kmpl','1498 CC','108.62 bhp',5,'10.13 Lakh'
+Ahmedabad,2009,90000,Petrol,Manual,First,'18.5 kmpl','1197 CC','80 bhp',5,0
+Delhi,2013,20000,Diesel,Automatic,First,'17.68 kmpl','1968 CC','174.33 bhp',5,0
+Jaipur,2014,62269,Diesel,Manual,First,'24.0 kmpl','1120 CC','70 bhp',5,0
+Chennai,2015,69000,Diesel,Manual,First,'17.32 kmpl','1968 CC','138.13 bhp',5,0
+Kochi,2015,58898,Diesel,Automatic,First,'14.69 kmpl','2993 CC','258 bhp',5,0
+Coimbatore,2018,29110,Diesel,Automatic,First,'26.59 kmpl','1248 CC','74 bhp',5,0
+Kochi,2019,34649,Petrol,Automatic,First,'18.9 kmpl','1197 CC','81.86 bhp',5,'7.96 Lakh'
+Kolkata,2017,13000,Diesel,Manual,First,'26.0 kmpl','1498 CC','98.6 bhp',5,0
+Jaipur,2015,25043,Petrol,Manual,First,'18.9 kmpl','1197 CC','81.86 bhp',5,'6.54 Lakh'
+Coimbatore,2018,36611,Petrol,Automatic,First,'19.0 kmpl','1199 CC','88.7 bhp',5,0
+Jaipur,2008,150000,Diesel,Manual,Second,'17.8 kmpl','1248 CC','75 bhp',5,0
+Ahmedabad,2015,82000,Petrol,Manual,First,'22.5 kmpl','998 CC','67.04 bhp',5,'5.27 Lakh'
+Kochi,2017,45158,Diesel,Manual,Second,'28.09 kmpl','1248 CC','88.5 bhp',5,0
+Coimbatore,2016,36968,Petrol,Automatic,First,'16.93 kmpl','1197 CC','103.2 bhp',5,0
+Coimbatore,2015,53556,Petrol,Manual,First,'20.4 kmpl','1197 CC','81.80 bhp',5,0
+Bangalore,2013,78500,Diesel,Automatic,First,'20.0 kmpl','1968 CC','138.1 bhp',5,0
+Jaipur,2017,133000,Diesel,Manual,First,'24.4 kmpl','1120 CC','71 bhp',5,0
+Coimbatore,2017,33186,Diesel,Manual,First,'19.67 kmpl','1582 CC','126.2 bhp',5,0
+Delhi,2012,65000,Petrol,Automatic,First,'11.74 kmpl','1796 CC','186 bhp',5,0
+Coimbatore,2015,61903,Diesel,Manual,First,'22.9 kmpl','1248 CC','74 bhp',5,0
+Kolkata,2011,25000,Petrol,Manual,First,'17.6 kmpl','1496 CC','88.73 bhp',5,0
+Coimbatore,2007,64168,Petrol,Automatic,First,'17.0 kmpl','1086 CC','null bhp',5,0
+Hyderabad,2017,8044,Petrol,Manual,First,'20.85 kmpl','1197 CC','83.14 bhp',5,0
+Bangalore,2017,18000,Diesel,Automatic,First,'13.22 kmpl','2967 CC','241.4 bhp',5,0
+Mumbai,2013,80000,Petrol,Manual,First,'16.8 kmpl','1497 CC','116.3 bhp',5,0
+Chennai,2016,45000,Diesel,Manual,First,'25.32 kmpl','1198 CC','77 bhp',5,0
+Mumbai,2013,78835,Diesel,Manual,Second,'14.0 kmpl','2498 CC','112 bhp',8,0
+Kochi,2017,30631,Petrol,Manual,First,'23.84 kmpl','1199 CC','84 bhp',5,'5.56 Lakh'
+Hyderabad,2011,72573,Diesel,Manual,First,'12.05 kmpl','2179 CC','120 bhp',8,0
+Delhi,2016,10000,Diesel,Automatic,First,'11.36 kmpl','2755 CC','171.5 bhp',7,'20.74 Lakh'
+Mumbai,2011,50215,Petrol,Manual,First,'18.9 kmpl','998 CC','67.1 bhp',5,0
+Kolkata,2009,9999,Petrol,Manual,First,'16.1 kmpl','796 CC','37 bhp',4,0
+Pune,2008,110000,Petrol,Manual,Second,'13.5 kmpl','1799 CC','130 bhp',5,0
+Jaipur,2013,81000,Diesel,Manual,First,'25.44 kmpl','936 CC','57.6 bhp',5,0
+Delhi,2016,11000,Diesel,Manual,First,'16.55 kmpl','2498 CC','105 bhp',6,'11.14 Lakh'
+Kolkata,2017,59000,Petrol,Manual,First,'17.57 kmpl','1193 CC','88.7 bhp',5,'6.59 Lakh'
+Mumbai,2015,8300,Petrol,Manual,First,'21.1 kmpl','814 CC','55.2 bhp',5,0
+Mumbai,2016,40000,Diesel,Automatic,First,'11.18 kmpl','2696 CC','184 bhp',7,0
+Pune,2016,83500,Diesel,Manual,First,'19.67 kmpl','1582 CC','126.2 bhp',5,0
+Kolkata,2017,22000,Diesel,Manual,First,'22.95 kmpl','1248 CC','74 bhp',5,'7.94 Lakh'
+Mumbai,2013,39000,Petrol,Manual,First,'13.7 kmpl','1399 CC','98.82 bhp',7,0
+Pune,2013,90000,Diesel,Automatic,First,'17.2 kmpl','1968 CC','138.1 bhp',5,0
+Pune,2012,134487,Diesel,Manual,First,'21.9 kmpl','1396 CC','88.8 bhp',5,0
+Bangalore,2014,65000,Diesel,Automatic,First,'15.73 kmpl','1968 CC','174.33 bhp',5,0
+Ahmedabad,2015,48000,Diesel,Manual,First,'15.4 kmpl','2179 CC','120 bhp',7,0
+Bangalore,2011,60000,Diesel,Automatic,First,'13.2 kmpl','1995 CC','170 bhp',5,0
+Kochi,2015,23742,Petrol,Automatic,First,'15.04 kmpl','1991 CC','360 bhp',5,0
+Hyderabad,2010,60268,Petrol,Manual,First,'17.0 kmpl','1497 CC','118 bhp',5,0
+Hyderabad,2016,70746,Diesel,Manual,First,'24.3 kmpl','1248 CC','88.5 bhp',5,'11.02 Lakh'
+Delhi,2014,61000,Petrol,Automatic,First,'12.98 kmpl','2494 CC','178.4 bhp',5,0
+Pune,2007,102000,Diesel,Manual,First,'17.8 kmpl','1248 CC','75 bhp',5,0
+Bangalore,2016,25000,Petrol,Automatic,Second,'14.5 kmpl','1797 CC','147.4 bhp',5,0
+Delhi,2013,64000,Diesel,Manual,First,'20.46 kmpl','1461 CC','83.8 bhp',5,0
+Hyderabad,2010,78265,Diesel,Automatic,First,'12.19 kmpl','2967 CC','236 bhp',5,0
+Pune,2006,76560,Petrol,Manual,Third,'15.9 kmpl','1298 CC','85 bhp',5,0
+Kolkata,2017,10000,Diesel,Manual,First,'17.1 kmpl','1956 CC','170 bhp',5,'20.01 Lakh'
+Mumbai,2010,52000,Petrol,Automatic,First,'16.8 kmpl','1497 CC','118 bhp',5,0
+Jaipur,2018,45000,Diesel,Manual,First,'22.95 kmpl','1248 CC','74 bhp',5,'7.94 Lakh'
+Kochi,2018,29562,Petrol,Manual,First,'21.4 kmpl','1197 CC','83.1 bhp',5,0
+Kolkata,2014,32000,Diesel,Manual,First,'26.59 kmpl','1248 CC','74 bhp',5,0
+Coimbatore,2016,22003,Petrol,Manual,First,'16.2 kmpl','1199 CC','74 bhp',5,0
+Pune,2017,2890,Petrol,Manual,First,'13.8 kmpl','1998 CC','192 bhp',5,'44.59 Lakh'
+Mumbai,2015,52000,Diesel,Automatic,First,'13.5 kmpl','2477 CC','175.56 bhp',7,'32.62 Lakh'
+Pune,2008,100000,Petrol,Manual,Second,'17.7 kmpl','1497 CC','78 bhp',5,0
+Jaipur,2013,60000,Petrol,Manual,Second,'21.1 kmpl','814 CC','55.2 bhp',5,0
+Jaipur,2010,6512,Petrol,Manual,First,'16.0 kmpl','995 CC','63 bhp',5,0
+Kolkata,2008,39008,Petrol,Manual,First,'19.7 kmpl','796 CC','46.3 bhp',5,0
+Chennai,2003,136441,Petrol,Manual,First,'13.4 kmpl','1794 CC','125 bhp',5,0
+Kolkata,2012,36200,Petrol,Manual,First,'17.0 kmpl','1197 CC','80 bhp',5,0
+Kolkata,2015,32506,Diesel,Manual,First,'24.8 kmpl','1396 CC','88.7 bhp',5,0
+Pune,2016,67000,Petrol,Manual,First,'13.7 kmpl','1399 CC','98.79 bhp',8,0
+Pune,2011,59800,Petrol,Manual,Second,'14.6 kmpl','1368 CC','88.7 bhp',5,0
+Coimbatore,2015,63008,Diesel,Manual,First,'15.1 kmpl','2179 CC','140 bhp',7,0
+Coimbatore,2018,57804,Diesel,Automatic,First,'24.3 kmpl','1248 CC','88.5 bhp',5,'11.59 Lakh'
+Kolkata,2012,37212,Petrol,Manual,First,'18.3 kmpl','1197 CC','null bhp',5,0
+Jaipur,2015,65000,Diesel,Manual,First,'19.67 kmpl','1582 CC','126.2 bhp',5,0
+Coimbatore,2009,61259,Petrol,Manual,First,'17.92 kmpl','1086 CC','62.1 bhp',5,0
+Chennai,2010,50000,Petrol,Automatic,Second,'15.0 kmpl','1396 CC','100 bhp',5,0
+Mumbai,2006,183513,Diesel,Manual,Second,'14.9 kmpl','1991 CC','112.2 bhp',5,0
+Delhi,2015,66000,Diesel,Manual,First,'16.0 kmpl','2179 CC','140 bhp',7,0
+Kochi,2012,78979,Diesel,Automatic,First,'18.53 kmpl','1968 CC','187.74 bhp',5,0
+Bangalore,2016,30010,Petrol,Manual,First,'23.84 kmpl','1199 CC','84 bhp',5,'6.46 Lakh'
+Kochi,2016,27508,Diesel,Automatic,First,'20.0 kmpl','2143 CC','107.3 bhp',5,0
+Mumbai,2014,28000,Petrol,Automatic,First,'17.1 kmpl','1591 CC','121.4 bhp',5,0
+Mumbai,2014,45000,Diesel,Automatic,First,'19.27 kmpl','2143 CC','167.62 bhp',5,0
+Kochi,2013,86107,Petrol,Automatic,First,'8.45 kmpl','2979 CC','321 bhp',5,0
+Hyderabad,2015,49000,Diesel,Automatic,Second,'12.7 kmpl','2179 CC','187.7 bhp',5,0
+Coimbatore,2018,32746,Petrol,Automatic,First,'13.0 kmpl','1591 CC','121.3 bhp',5,0
+Mumbai,2013,42758,Petrol,Automatic,First,'16.93 kmpl','1197 CC','103.2 bhp',5,0
+Hyderabad,2013,50000,Diesel,Automatic,First,'23.8 kmpl','1998 CC','112 bhp',5,0
+Coimbatore,2016,90904,Diesel,Automatic,First,'9.0 kmpl','1984 CC','181 bhp',5,0
+Kolkata,2012,52612,Diesel,Manual,First,'23.08 kmpl','1461 CC','63.12 bhp',5,0
+Kolkata,2015,40000,Petrol,Manual,First,'18.0 kmpl','1198 CC','86.7 bhp',5,0
+Delhi,2012,80724,Petrol,Automatic,First,'12.98 kmpl','2494 CC','178.4 bhp',5,0
+Hyderabad,2009,62659,Petrol,Manual,First,'19.7 kmpl','796 CC','46.3 bhp',5,0
+Kochi,2011,72734,Petrol,Automatic,Second,'14.67 kmpl','1798 CC','177.46 bhp',5,'33.36 Lakh'
+Pune,2015,15000,Petrol,Manual,First,'17.5 kmpl','1373 CC','91.1 bhp',7,0
+Bangalore,2014,65475,Diesel,Automatic,First,'16.55 kmpl','1968 CC','147.51 bhp',5,0
+Chennai,2012,71000,Diesel,Manual,First,'20.77 kmpl','1248 CC','88.76 bhp',7,0
+Bangalore,2016,16000,Diesel,Automatic,First,'19.27 kmpl','2143 CC','167.62 bhp',5,0
+Delhi,2011,72329,Petrol,Manual,First,'17.5 kmpl','1197 CC','85.8 bhp',5,0
+Coimbatore,2016,49398,Diesel,Automatic,First,'17.9 kmpl','2143 CC','136 bhp',5,0
+Jaipur,2016,44147,Petrol,Manual,First,'17.8 kmpl','1497 CC','117.3 bhp',5,0
+Ahmedabad,2007,45000,Petrol,Manual,First,'19.7 kmpl','796 CC','46.3 bhp',5,0
+Delhi,2011,75000,Diesel,Manual,First,'11.5 kmpl','2982 CC','171 bhp',7,0
+Coimbatore,2017,22574,Diesel,Automatic,First,'21.76 kmpl','1995 CC','190 bhp',5,'62.07 Lakh'
+Kochi,2016,26642,Petrol,Manual,First,'18.6 kmpl','1197 CC','81.86 bhp',5,0
+Hyderabad,2013,81304,Diesel,Manual,First,'25.8 kmpl','1498 CC','98.6 bhp',5,0
+Kolkata,2013,46000,Diesel,Manual,First,'15.0 kmpl','1896 CC','105 bhp',5,0
+Hyderabad,2007,99000,Petrol,Manual,First,'13.0 kmpl','2987 CC','210 bhp',5,0
+Pune,2012,36317,Petrol,Manual,First,'21.1 kmpl','814 CC','55.2 bhp',5,0
+Pune,2008,70000,Petrol,Manual,First,'18.2 kmpl','998 CC','67.1 bhp',5,0
+Hyderabad,2009,137711,Diesel,Manual,First,'16.8 kmpl','1493 CC','110 bhp',5,0
+Mumbai,2018,18980,Petrol,Automatic,First,'17.0 kmpl','1591 CC','121.3 bhp',5,'15.14 Lakh'
+Mumbai,2015,31293,Petrol,Manual,First,'18.6 kmpl','1197 CC','81.83 bhp',5,0
+Pune,2004,43000,Petrol,Manual,Second,'15.4 kmpl','1590 CC','94 bhp',5,0
+Ahmedabad,2016,45000,Diesel,Manual,First,'27.3 kmpl','1498 CC','98.6 bhp',5,0
+Kolkata,2012,53000,Diesel,Manual,First,'20.54 kmpl','1598 CC','103.6 bhp',5,0
+Pune,2011,30000,Petrol,Manual,First,'19.81 kmpl','1086 CC','68.05 bhp',5,0
+Delhi,2017,13000,Diesel,Manual,First,'17.1 kmpl','1956 CC','170 bhp',5,'19.72 Lakh'
+Delhi,2013,62000,Diesel,Manual,First,'19.01 kmpl','1461 CC','108.45 bhp',5,0
+Chennai,2012,35161,Petrol,Manual,First,'17.5 kmpl','1298 CC','85.8 bhp',5,0
+Jaipur,2006,75000,Petrol,Manual,First,'19.7 kmpl','796 CC','46.3 bhp',5,0
+Coimbatore,2016,53590,Petrol,Automatic,First,'21.9 kmpl','624 CC','37.48 bhp',4,0
+Chennai,2008,71467,Petrol,Manual,First,'19.81 kmpl','1086 CC','68.05 bhp',5,0
+Kochi,2011,66287,Petrol,Manual,First,'19.7 kmpl','796 CC','46.3 bhp',5,0
+Jaipur,2012,85000,Diesel,Manual,Second,'20.0 kmpl','1399 CC','68 bhp',5,0
+Hyderabad,2012,147202,Diesel,Automatic,First,'11.8 kmpl','2993 CC','241.6 bhp',7,0
+Coimbatore,2016,72566,Diesel,Manual,First,'26.0 kmpl','1498 CC','98.6 bhp',5,0
+Pune,2015,190000,Diesel,Manual,First,'23.2 kmpl','1248 CC','73.94 bhp',5,0
+Delhi,2017,25348,Petrol,Manual,First,'18.9 kmpl','1197 CC','81.86 bhp',5,0
+Delhi,2014,54000,Petrol,Automatic,First,'18.9 kmpl','1197 CC','82 bhp',5,0
+Bangalore,2015,33000,Petrol,Manual,First,'18.6 kmpl','1197 CC','81.83 bhp',5,0
+Delhi,2011,58067,Diesel,Automatic,First,'18.48 kmpl','1995 CC','177 bhp',5,0
+Coimbatore,2015,43020,Diesel,Automatic,First,'13.0 kmpl','2143 CC','201.1 bhp',5,0
+Hyderabad,2014,27641,Diesel,Manual,First,'12.99 kmpl','2494 CC','100 bhp',7,0
+Hyderabad,2016,46372,Diesel,Manual,First,'26.59 kmpl','1248 CC','74 bhp',5,0
+Kochi,2016,27535,Petrol,Manual,First,'24.07 kmpl','998 CC','67.1 bhp',5,'4.09 Lakh'
+Kochi,2016,55615,Diesel,Automatic,First,'22.48 kmpl','1995 CC','190 bhp',5,'67.87 Lakh'
+Jaipur,2017,19000,Diesel,Manual,First,'24.3 kmpl','1248 CC','88.5 bhp',5,0
+Kolkata,2010,47000,Petrol,Manual,First,'16.2 kmpl','1599 CC','103.2 bhp',5,0
+Delhi,2015,60595,Petrol,Manual,First,'17.4 kmpl','1497 CC','117.3 bhp',5,0
+Hyderabad,2013,170000,Diesel,Manual,First,'22.3 kmpl','1248 CC','74 bhp',5,0
+Delhi,2017,14301,Diesel,Manual,First,'21.19 kmpl','1396 CC','88.73 bhp',5,0
+Kochi,2015,42741,Diesel,Automatic,Second,'17.68 kmpl','1968 CC','174.33 bhp',5,0
+Delhi,2015,31000,Diesel,Automatic,Second,'15.97 kmpl','2993 CC','258 bhp',5,0
+Delhi,2017,11000,Petrol,Manual,First,'15.29 kmpl','1591 CC','121.3 bhp',5,0
+Mumbai,2018,3800,Diesel,Automatic,First,'24.3 kmpl','1248 CC','88.5 bhp',5,'12.46 Lakh'
+Coimbatore,2009,44702,Petrol,Manual,First,'16.6 kmpl','1388 CC','68 bhp',5,0
+Delhi,2017,14300,Diesel,Automatic,First,'28.4 kmpl','1248 CC','73.75 bhp',5,'9.11 Lakh'
+Coimbatore,2018,31542,Petrol,Manual,First,'17.4 kmpl','1497 CC','117.3 bhp',5,'12.68 Lakh'
+Chennai,2015,31717,Petrol,Automatic,First,'23.1 kmpl','998 CC','67.04 bhp',5,0
+Kochi,2011,99120,Diesel,Manual,First,'11.5 kmpl','1991 CC','147.9 bhp',7,0
+Chennai,2016,36000,Petrol,Manual,First,'19.83 kmpl','1198 CC','67 bhp',5,'5.53 Lakh'
+Delhi,2010,40000,Petrol,Manual,First,'13.1 kmpl','1798 CC','157.8 bhp',5,0
+Ahmedabad,2014,41000,Petrol,Manual,First,'0.0 kmpl','1086 CC','62 bhp',5,0
+Chennai,2007,160000,Diesel,Manual,Second,'19.2 kmpl','1461 CC','65 bhp',5,0
+Pune,2016,41413,Diesel,Manual,First,'27.28 kmpl','1047 CC','69 bhp',5,'7.06 Lakh'
+Mumbai,2011,67500,Petrol,Automatic,Second,'14.4 kmpl','1598 CC','103.6 bhp',5,0
+Pune,2014,30315,Petrol,Manual,First,'18.6 kmpl','1197 CC','81.83 bhp',5,0
+Kochi,2017,39015,Petrol,Manual,First,'17.0 kmpl','1497 CC','121.36 bhp',5,'8.79 Lakh'
+Mumbai,2018,6000,Petrol,Manual,First,'16.0 kmpl','1368 CC','160 bhp',5,'18.16 Lakh'
+Bangalore,2014,21143,Diesel,Automatic,First,'16.55 kmpl','1968 CC','147.51 bhp',5,0
+Kochi,2013,42203,Petrol,Manual,First,'17.1 kmpl','1591 CC','121.3 bhp',5,0
+Kochi,2017,21380,Diesel,Manual,First,'24.3 kmpl','1248 CC','88.5 bhp',5,'10.57 Lakh'
+Kochi,2018,23955,Petrol,Manual,First,'18.6 kmpl','1197 CC','81.86 bhp',5,'7.08 Lakh'
+Kolkata,2013,38568,Diesel,Manual,First,'25.8 kmpl','1498 CC','98.6 bhp',5,0
+Hyderabad,2011,64000,Diesel,Automatic,First,'16.55 kmpl','1968 CC','147.51 bhp',5,0
+Hyderabad,2014,57000,Petrol,Automatic,First,'15.5 kmpl','1198 CC','86.7 bhp',5,0
+Coimbatore,2017,44556,Diesel,Manual,First,'27.3 kmpl','1498 CC','98.6 bhp',5,0
+Delhi,2012,80000,Diesel,Automatic,First,'16.73 kmpl','2993 CC','218 bhp',5,0
+Kolkata,2015,39000,Petrol,Manual,First,'18.9 kmpl','1197 CC','82 bhp',5,0
+Chennai,2015,70000,Diesel,Manual,First,'19.87 kmpl','1461 CC','83.8 bhp',5,0
+Pune,2009,45463,Petrol,Manual,First,'14.49 kmpl','1399 CC','92.7 bhp',5,0
+Kochi,2015,44776,Petrol,Manual,First,'18.0 kmpl','1198 CC','86.7 bhp',5,0
+Coimbatore,2016,18242,Petrol,Automatic,First,'18.9 kmpl','1197 CC','82 bhp',5,0
+Coimbatore,2015,21190,Petrol,Manual,First,'21.1 kmpl','814 CC','55.2 bhp',5,0
+Hyderabad,2011,89411,Diesel,Manual,First,'20.54 kmpl','1598 CC','103.6 bhp',5,0
+Mumbai,2015,59000,Petrol,Automatic,First,'17.21 kmpl','1197 CC','103.6 bhp',5,0
+Kolkata,2012,28000,Diesel,Manual,First,'23.08 kmpl','1461 CC','63.1 bhp',5,0
+Pune,2013,52262,Petrol,Automatic,Third,'17.2 kmpl','1197 CC','103.6 bhp',5,0
+Kochi,2014,72443,Diesel,Automatic,First,'10.0 kmpl','2148 CC','170 bhp',5,0
